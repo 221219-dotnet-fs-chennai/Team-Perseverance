@@ -15,6 +15,9 @@ import { LoginComponent } from './login/login.component';
 import {MatCardModule} from '@angular/material/card';
 import { PatientbasicrecordComponent } from './patientbasicrecord/patientbasicrecord.component';
 import { PatientMedicationComponent } from './patient-medication/patient-medication.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { PatientDashboardComponent } from './patient-dashboard/patient-dashboard.component';
 
 
 
@@ -26,6 +29,7 @@ import { PatientMedicationComponent } from './patient-medication/patient-medicat
     LoginComponent,
     PatientbasicrecordComponent,
     PatientMedicationComponent,
+    PatientDashboardComponent,
     
   ],
   imports: [
@@ -39,7 +43,9 @@ import { PatientMedicationComponent } from './patient-medication/patient-medicat
     MatIconModule,
     MatRadioModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   
   ],
   providers: [],

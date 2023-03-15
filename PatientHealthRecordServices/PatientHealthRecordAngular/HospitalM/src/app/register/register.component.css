@@ -4,7 +4,7 @@
   section{
     border-style:none ;
     margin-left: 450px;
-    margin-right: 50px;
+    margin-right: 500px;
   }
   .mat-toolbar.mat-primary {
     background: green;
@@ -15,5 +15,8 @@
     --mdc-protected-button-label-text-color: #fff;
 }
 .area{
-  width: 425px;
+  width: 430px;
+}
+.radio{
+  padding: 20px;
 }
