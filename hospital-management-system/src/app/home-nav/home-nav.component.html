@@ -1,0 +1,62 @@
+<!-- <div class="nav-container">
+  <mat-toolbar color="accent" class="nav-section">
+    <a routerLink="" id="nav-logo">Practice Management System</a>
+    <div id="nav-home">
+      <a routerLink="" mat-raised-button color="primary" routerLink="/">
+        Home
+      </a>
+    </div>
+    <div id="nav-register">
+      <a routerLink="" mat-raised-button color="primary" routerLink="/">
+        Register
+      </a>
+    </div>
+    <div id="nav-MLogin">
+      <div *ngIf="flag === false">
+        <a (click)="loginWithRedirect()" mat-raised-button color="primary">
+          Management Login
+        </a>
+      </div>
+    </div>
+    <div id="nav-MLogin">
+      <span *ngIf="flag === true">
+        <a (click)="logout()" routerLink="" mat-raised-button color="alart">
+          Logout
+        </a>
+      </span>
+    </div>
+  </mat-toolbar> 
+</div> -->
+
+<div>
+  <mat-toolbar color="primary">
+    <button matTooltip="Menu" mat-icon-button class="example-icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>HMS</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button matTooltip="Home" class="example-icon favorite-icon"
+      >
+      <mat-icon>home</mat-icon>
+    </button>
+    <div *ngIf="flag === true">
+      <button (click)="logout()" mat-icon-button matTooltip="Logout" class="example-icon favorite-icon"
+        >
+        <mat-icon>logout</mat-icon>
+      </button>
+    </div>
+    <div *ngIf="flag === false">
+      <button (click)="loginWithRedirect()" mat-icon-button matTooltip="Login" class="example-icon favorite-icon"
+        >
+        <mat-icon>login</mat-icon>
+      </button>
+    </div>
+  </mat-toolbar>
+</div>
+<div>
+  <app-login></app-login>
+</div>
+
+
+<router-outlet></router-outlet>
+

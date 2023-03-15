@@ -1,0 +1,22 @@
+.example-spacer {
+  flex: 1 1 auto;
+} 
+
+.example-container {
+  width: 500px;
+  background-color: transparent;
+  position: absolute;
+  height: 80vh;
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.example-sidenav{
+  background-color: rgb(0, 0, 0);
+  width: 200px;
+}
+
