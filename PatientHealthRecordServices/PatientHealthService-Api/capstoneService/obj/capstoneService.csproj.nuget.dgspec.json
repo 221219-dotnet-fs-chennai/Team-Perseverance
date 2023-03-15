@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\capstoneService\\capstoneService.csproj": {}
+  },
+  "projects": {
+    "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\BusinessLogic\\BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\BusinessLogic\\BusinessLogic.csproj",
+        "projectName": "BusinessLogic",
+        "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\godavarthi yasaswini\\.nuget\\packages\\",
+        "outputPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\godavarthi yasaswini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\EntityFrameRepo\\EntityFrameRepo.csproj": {
+                "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\EntityFrameRepo\\EntityFrameRepo.csproj"
+              },
+              "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\Models.csproj": {
+                "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\capstoneService\\capstoneService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\capstoneService\\capstoneService.csproj",
+        "projectName": "capstoneService",
+        "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\capstoneService\\capstoneService.csproj",
+        "packagesPath": "C:\\Users\\godavarthi yasaswini\\.nuget\\packages\\",
+        "outputPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\capstoneService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\godavarthi yasaswini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\BusinessLogic\\BusinessLogic.csproj"
+              },
+              "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\EntityFrameRepo\\EntityFrameRepo.csproj": {
+                "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\EntityFrameRepo\\EntityFrameRepo.csproj"
+              },
+              "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\Models.csproj": {
+                "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\EntityFrameRepo\\EntityFrameRepo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\EntityFrameRepo\\EntityFrameRepo.csproj",
+        "projectName": "EntityFrameRepo",
+        "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\EntityFrameRepo\\EntityFrameRepo.csproj",
+        "packagesPath": "C:\\Users\\godavarthi yasaswini\\.nuget\\packages\\",
+        "outputPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\EntityFrameRepo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\godavarthi yasaswini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\Models.csproj": {
+                "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\godavarthi yasaswini\\.nuget\\packages\\",
+        "outputPath": "E:\\Team-Perseverance\\PatientHealthRecordServices\\PatientHealthService-Api\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\godavarthi yasaswini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
