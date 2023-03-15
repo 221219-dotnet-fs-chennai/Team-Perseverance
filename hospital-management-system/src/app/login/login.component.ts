@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
+import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -7,6 +8,16 @@ import { FormControl, Validators } from '@angular/forms';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+  constructor(private router :Router){
+    router.events.subscribe((val) => {
+      if(val instanceof NavigationEnd){
+        if(val.url === '/register'){
+          this.show = false
+        }
+      }
+    })
+  }
+  show = true;
   hide = true;
   email = new FormControl('', [Validators.required, Validators.email]);
   getErrorMessage() {

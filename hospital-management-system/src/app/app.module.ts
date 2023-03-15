@@ -20,10 +20,12 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatButtonModule} from '@angular/material/button'; 
 import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field'; 
-import {MatInputModule} from '@angular/material/input'; 
+import {MatInputModule} from '@angular/material/input';
+import { RegisterComponent } from './register/register.component';
+import { NewloginComponent } from './newlogin/newlogin.component'; 
 
 @NgModule({
-  declarations: [AppComponent, HomeNavComponent, LoginComponent],
+  declarations: [AppComponent, HomeNavComponent, LoginComponent, RegisterComponent, NewloginComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

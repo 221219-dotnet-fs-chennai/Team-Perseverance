@@ -12,10 +12,13 @@ import { DOCUMENT } from '@angular/common';
 export class HomeNavComponent implements OnInit {
   constructor(
     private loginService: LoginService,
-    private route: Router,
+    public route: Router,
     public auth: AuthService,
     @Inject(DOCUMENT) private doc: Document
   ) {}
+  goToPage(pageName:string){
+    this.route.navigate([`${pageName}`]);
+  }
 
   flag = false;
   ngOnInit(): void {
@@ -28,6 +31,7 @@ export class HomeNavComponent implements OnInit {
       switch (profile?.email?.split('@')[1]) {
         case 'admin.com':
           if (this.loginService.login(profile?.email?.split('@')[1])) {
+            console.log("fghjk");
             this.route.navigate(['/admin']);
           }
           break;
