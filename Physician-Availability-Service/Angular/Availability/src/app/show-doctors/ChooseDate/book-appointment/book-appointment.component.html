@@ -16,10 +16,11 @@
 </div>
 <div mat-dialog-actions>
   <button mat-button mat-dialog-close>No</button>
-  <button mat-button mat-dialog-close cdkFocusInitial (click)="fetch()" (click)="passDoctorIds()" routerLink="showDoctors">Ok</button>
+  <!-- <button mat-button mat-dialog-close cdkFocusInitial (click)="fetch()" routerLink="showDoctors" (click)="passDoctorIds()">Ok</button> -->
+  <button mat-button mat-dialog-close cdkFocusInitial (click)="fetch()" (click)="passDoctorIds()">Ok</button>
   <br><br><br>
 </div>
 
-<h2>Hello {{schedules}}</h2>
+<h3>{{selectedDay}</h3>
 
 

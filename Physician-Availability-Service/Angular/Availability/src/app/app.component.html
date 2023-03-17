@@ -55,6 +55,14 @@
 
  <!-- <app-show-doctors></app-show-doctors> -->
 
+ <!-- <app-book-appointment (doctorIds)="getDoctorIds($event)"></app-book-appointment> -->
+
+<div *ngFor="let schedule of schedules">
+    <div>
+        {{schedule.doctorId}}
+    </div>
+</div>
+
  <router-outlet ></router-outlet>
  
 

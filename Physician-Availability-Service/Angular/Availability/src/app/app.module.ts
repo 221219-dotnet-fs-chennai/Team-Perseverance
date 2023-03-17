@@ -14,7 +14,7 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatButtonModule} from '@angular/material/button';
 import { AddScheduleComponent } from './add-schedule/add-schedule.component';
 import {MatRadioModule} from '@angular/material/radio';
-import { BookAppointmentComponent } from './book-appointment/book-appointment.component';
+import { BookAppointmentComponent } from './show-doctors/ChooseDate/book-appointment/book-appointment.component';
 import { ShowDoctorsComponent } from './show-doctors/show-doctors.component';
 
 @NgModule({
