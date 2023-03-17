@@ -1,0 +1,10 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+@media screen {
+    .example-form {
+        margin-left: 40%;
+    }
+    
+}
