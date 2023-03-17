@@ -38,6 +38,7 @@ export interface Schedule {
 
 export class AppComponent implements OnInit {
   title = 'Availability';
+  showButton !: boolean;
 
   constructor(private available : AvailabilityService, public dialog: MatDialog) { }
 
@@ -53,7 +54,7 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit() {
-    
+    this.showButton = true
   }
 
   UpdateMon() 
@@ -113,6 +114,15 @@ export class AppComponent implements OnInit {
   openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
     this.dialog.open(BookAppointmentComponent, {
       width: '400px',
+      enterAnimationDuration,
+      exitAnimationDuration,
+    });
+    this.showButton = false;
+  }
+
+  openAddDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+    this.dialog.open(AddScheduleComponent, {
+      width: '600px',
       enterAnimationDuration,
       exitAnimationDuration,
     });

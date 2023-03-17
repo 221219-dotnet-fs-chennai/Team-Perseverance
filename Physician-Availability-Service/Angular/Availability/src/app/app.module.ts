@@ -16,6 +16,10 @@ import { AddScheduleComponent } from './add-schedule/add-schedule.component';
 import {MatRadioModule} from '@angular/material/radio';
 import { BookAppointmentComponent } from './show-doctors/ChooseDate/book-appointment/book-appointment.component';
 import { ShowDoctorsComponent } from './show-doctors/show-doctors.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SnackbarComponent } from './add-schedule/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +29,7 @@ import { ShowDoctorsComponent } from './show-doctors/show-doctors.component';
     AddScheduleComponent,
     BookAppointmentComponent,
     ShowDoctorsComponent,
+    SnackbarComponent,
 
   ],
   imports: [
@@ -36,7 +41,10 @@ import { ShowDoctorsComponent } from './show-doctors/show-doctors.component';
     MatChipsModule,
     HttpClientModule,
     MatButtonModule,
-    MatRadioModule
+    MatRadioModule,
+    MatCheckboxModule,
+    MatSnackBarModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

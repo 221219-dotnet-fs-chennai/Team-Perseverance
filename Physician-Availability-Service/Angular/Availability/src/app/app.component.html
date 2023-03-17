@@ -45,7 +45,20 @@
 
  <br><br> -->
 
- <button mat-raised-button (click)="openDialog('20ms', '20ms')">Book appointment</button>
+ <router-outlet ></router-outlet>
+
+ <h3>--------- Book appointment ---------</h3>
+<br>
+ <button mat-raised-button (click)="openDialog('20ms', '20ms')" *ngIf="showButton">Book appointment</button>
+<br>
+ <h3>--------- Add schedule ---------</h3>
+<br>
+ <button mat-raised-button (click)="openAddDialog('20ms', '20ms')" >Add schedule</button>
+<br>
+
+
+
+ <!-- <app-router-view></app-router-view> -->
 
  <!-- <app-book-appointment ></app-book-appointment> -->
 
@@ -57,13 +70,12 @@
 
  <!-- <app-book-appointment (doctorIds)="getDoctorIds($event)"></app-book-appointment> -->
 
-<div *ngFor="let schedule of schedules">
+<!-- <div *ngFor="let schedule of schedules">
     <div>
         {{schedule.doctorId}}
     </div>
-</div>
+</div> -->
 
- <router-outlet ></router-outlet>
  
 
 
