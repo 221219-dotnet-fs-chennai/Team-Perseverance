@@ -1,0 +1,13 @@
+a:link {
+    text-decoration: none;
+}
+.mat-expansion-panel-spacing{
+    width: 50%;
+    margin: auto;
+}
+
+.mat-expansion-panel{
+    width: 50%;
+    margin: auto;
+
+}
