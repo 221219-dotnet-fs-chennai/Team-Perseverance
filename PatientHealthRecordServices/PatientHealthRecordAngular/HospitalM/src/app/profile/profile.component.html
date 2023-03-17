@@ -3,35 +3,25 @@
       <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" title="icon">
         <mat-icon>local_hospital</mat-icon>
       </button>
-      <span>Hospital Management System</span>
+      <span title="Application">Hospital Management System</span>
       <span class="example-spacer"></span>
       <span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span>
       <!-- <a routerLink="/dashboard" style="text-decoration: none; color: white;"><button mat-button>DashBoard</button></a>
       <a routerLink="/healthinfo" style="text-decoration: none; color: white;"><button mat-button>Health Info</button></a>
        -->
+       <a routerLink="/dashboard" class="board"><button title="Dashboard">DashBoard</button></a>&nbsp;&nbsp;
        <a routerLink="/profile"><mat-icon title="Profile" style="color: white;">person</mat-icon></a>&nbsp;&nbsp;
        <a routerLink="/login"><mat-icon title="Logout" style="color: white;">exit_to_app</mat-icon></a>&nbsp;&nbsp;
     </mat-toolbar>
   </p>
-  <h1>Hi! (PatientName)</h1>
 
-  <br>
-  <button  mat-raised-button  class="example-full-width" style="float: right;" (click)="openPopup()">New Appointment </button>
-  <br>
-  <br>
-  <br>
-  <mat-accordion>
-    
-    <mat-expansion-panel (opened)="panelOpenState = true"
-                         (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          View Details
-        </mat-panel-title>
-        <mat-panel-description>
-          <!-- Currently I am {{panelOpenState ? 'open' : 'closed'}} -->
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-    </mat-expansion-panel>
-  </mat-accordion>
-  
+<mat-card class="card" title="patient_profile">
+    <h1>Profile</h1>
+    <label>Age: patientage</label>
+    <label for="">EmailId: Patient@gmail.com</label>
+    <label>Gender: patientage</label>
+    <label>Phone Number: patientage</label>
+    <label>City:</label>
+    <label>State:</label> 
+    <label>Address:</label>  
+</mat-card>

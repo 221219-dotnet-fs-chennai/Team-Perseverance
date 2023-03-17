@@ -18,7 +18,12 @@ import { PatientMedicationComponent } from './patient-medication/patient-medicat
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { HealthinfoComponent } from './healthinfo/healthinfo.component';
-
+import {MatExpansionModule} from '@angular/material/expansion';
+import { MatDialogModule } from '@angular/material/dialog';
+import { BookappointmentComponent } from './bookappointment/bookappointment.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
@@ -30,10 +35,14 @@ import { HealthinfoComponent } from './healthinfo/healthinfo.component';
     PatientMedicationComponent,
     DashboardComponent,
     HealthinfoComponent,
+    BookappointmentComponent,
+    ProfileComponent,
+
     
   ],
   imports: [
     BrowserModule,
+    MatDatepickerModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatFormFieldModule,
@@ -44,7 +53,10 @@ import { HealthinfoComponent } from './healthinfo/healthinfo.component';
     MatRadioModule,
     MatButtonModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    MatExpansionModule,
+    MatDialogModule,
+    MatNativeDateModule
   
   ],
   providers: [],

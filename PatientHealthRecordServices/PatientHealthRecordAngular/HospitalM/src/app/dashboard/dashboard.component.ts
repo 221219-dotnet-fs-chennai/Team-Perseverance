@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { BookappointmentComponent } from '../bookappointment/bookappointment.component';
 
 @Component({
   selector: 'app-dashboard',
@@ -6,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
+  panelOpenState = false;
+  constructor (private dialog:MatDialog){
+  }
+  openPopup(){
+    this.dialog.open(BookappointmentComponent)
 
+  }
 }

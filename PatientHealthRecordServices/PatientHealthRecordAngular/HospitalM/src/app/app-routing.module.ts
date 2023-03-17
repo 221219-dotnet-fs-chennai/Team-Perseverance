@@ -5,6 +5,7 @@ import { HealthinfoComponent } from './healthinfo/healthinfo.component';
 import { LoginComponent } from './login/login.component';
 import { PatientMedicationComponent } from './patient-medication/patient-medication.component';
 import { PatientbasicrecordComponent } from './patientbasicrecord/patientbasicrecord.component';
+import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
 
 
@@ -30,6 +31,9 @@ const routes: Routes = [
 },
 {
   path:'healthinfo',component:HealthinfoComponent
+},
+{
+  path:'profile',component:ProfileComponent
 }
 
 

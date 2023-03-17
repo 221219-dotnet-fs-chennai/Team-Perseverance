@@ -1,0 +1,28 @@
+.card{
+    height: 270px;
+    width: 500px;
+    text-align: center;
+    margin-left: 370px;
+    padding-top: 38px;
+    border-radius: 253px;
+    margin-top: 75px;
+
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .mat-toolbar.mat-primary {
+    background: green;
+    color: #fff;
+}
+.board{
+    text-decoration: none;
+    text-size-adjust: 3px;
+   
+}
+button{
+    background-color: green;
+    border: none;
+    color: white;
+}

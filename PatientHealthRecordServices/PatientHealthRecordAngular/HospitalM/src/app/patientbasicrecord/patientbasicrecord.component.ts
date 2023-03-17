@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { timeInterval } from 'rxjs';
 
 @Component({
   selector: 'app-patientbasicrecord',
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class PatientbasicrecordComponent {
   now = new Date();
+ // today : number = Date.now();
 
 
 }
