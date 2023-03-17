@@ -1,0 +1,15 @@
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\bin\Debug\net7.0\DuplicateCharacter.exe
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\bin\Debug\net7.0\DuplicateCharacter.deps.json
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\bin\Debug\net7.0\DuplicateCharacter.runtimeconfig.json
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\bin\Debug\net7.0\DuplicateCharacter.dll
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\bin\Debug\net7.0\DuplicateCharacter.pdb
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\DuplicateCharacter.csproj.AssemblyReference.cache
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\DuplicateCharacter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\DuplicateCharacter.AssemblyInfoInputs.cache
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\DuplicateCharacter.AssemblyInfo.cs
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\DuplicateCharacter.csproj.CoreCompileInputs.cache
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\DuplicateCharacter.dll
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\refint\DuplicateCharacter.dll
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\DuplicateCharacter.pdb
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\DuplicateCharacter.genruntimeconfig.cache
+C:\Revature\P1-Srinu-Samarothu\Projects\Project-2 Angular\Login\QC\DuplicateCharacter\obj\Debug\net7.0\ref\DuplicateCharacter.dll

@@ -1,0 +1,74 @@
+<!-- <h1>App component</h1>
+<ol>
+    <li>
+      <mat-form-field appearance="fill">
+        <mat-label>What's your name?</mat-label>
+        <input matInput [(ngModel)]="name">
+      </mat-form-field>
+    </li>
+    <li>
+      <button mat-raised-button (click)="openDialog()">Pick one</button>
+    </li>
+    <li *ngIf="animal">
+      You chose: <i>{{animal}}</i>
+    </li>
+  </ol>
+
+-->
+
+
+
+<!-- 
+<h2>-------------------------------------------------------ADD SCEDULE------------------------------------------------------------------</h2>
+
+ <input type="checkbox" id="vehicle1" name="mon" (click)="UpdateMon()">
+ <label for="mon"> Monday</label><br>
+ <input type="checkbox" id="vehicle2" name="tue" (click)="UpdateTue()">
+ <label for="tue"> Tuesday</label><br>
+ <input type="checkbox" id="vehicle2" name="wed" (click)="UpdateWed()">
+ <label for="wed"> Wednesday</label><br>
+ <input type="checkbox" id="vehicle3" name="thu" (click)="UpdateThu()">
+ <label for="thu"> Thursday  {{mon}}</label><br>
+ <input type="checkbox" id="vehicle2" name="fri" (click)="UpdateFri()">
+ <label for="fri"> Friday</label><br>
+ <input type="checkbox" id="vehicle2" name="sat" (click)="UpdateSat()">
+ <label for="sat"> Saturday</label><br>
+ <input type="checkbox" id="vehicle2" name="sun" (click)="UpdateSun()">
+ <label for="sun"> Sunday</label><br>
+ <input type="submit" value="Submit" (click)="UpdateSchedule()">
+<br><br>
+
+ <button mat-raised-button color="accent" >Add Schedule</button>
+
+
+ <h2>---------------------------------------------------------------------------------------------------------------------------------</h2>
+
+ <br><br> -->
+
+ <button mat-raised-button (click)="openDialog('20ms', '20ms')">Book appointment</button>
+
+ <!-- <app-book-appointment ></app-book-appointment> -->
+
+ <!-- <app-schedule ></app-schedule> -->
+
+ <!-- <app-get-schedule></app-get-schedule> -->
+
+ <!-- <app-show-doctors></app-show-doctors> -->
+
+ <router-outlet ></router-outlet>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
