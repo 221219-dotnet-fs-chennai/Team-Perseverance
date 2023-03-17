@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Capstoneproj_patientinfo.props" />
+</Project>
