@@ -5,12 +5,12 @@
     <section class="example-section" *ngFor="let selected of selectedDates">
       <p><mat-checkbox (change)="updateDay(selected)">{{selected | date : 'd - MMM - yyy'}}</mat-checkbox></p>
     </section>
-
+<!-- 
     <section class="example-section">
       <h4>You chose:</h4>
-    </section>
+    </section> -->
 
-    <div mat-dialog-actions>
+    <div mat-dialog-actions class="btns">
       <button mat-button mat-dialog-close>Cancel</button>
       <button mat-button mat-dialog-close cdkFocusInitial (click)="UpdateSchedule()" color="primary" (click)="openSnackBar()">Add schedule</button>
       <br><br><br>

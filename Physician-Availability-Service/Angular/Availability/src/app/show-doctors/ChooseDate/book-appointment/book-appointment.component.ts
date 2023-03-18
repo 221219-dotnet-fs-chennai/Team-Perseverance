@@ -1,10 +1,11 @@
+// import { createInjectableType } from '@angular/compiler';
+
 import { Component, Input, OnInit, Output, EventEmitter, Inject } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { AvailabilityService } from '../../../availability.service';
 import { Schedule } from '../../../app.component';
 import { Router } from '@angular/router';
 import { localStorageToken } from 'src/app/localstorage.token';
-import { createInjectableType } from '@angular/compiler';
 
 @Component({
   selector: 'app-book-appointment',
@@ -63,5 +64,6 @@ export class BookAppointmentComponent implements OnInit {
     this.localStorage.setItem('selectedDay', this.selectedDay);
   }
 
+  
+  }
 
-}
