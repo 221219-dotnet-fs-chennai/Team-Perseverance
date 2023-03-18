@@ -1,22 +1,22 @@
 
 <p>
-  <mat-toolbar>
-    <button mat-icon-button class="example-icon" matTooltip="Menu" aria-label="Example icon-button with menu icon">
+  <mat-toolbar class="nav-bar">
+    <button mat-icon-button class="example-icon" color="warn" matTooltip="Menu" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button>
     <span></span>
     <span class="example-spacer"></span>
-    <button mat-icon-button color="primary" matTooltip="Home" aria-label="Example icon button with a home icon">
+    <button mat-icon-button color="warn" matTooltip="Home" aria-label="Example icon button with a home icon">
       <mat-icon>home</mat-icon>
     </button>
     <span class="example-spacer1"></span>
-    <button mat-icon-button color="primary" class="example-icon" matTooltip="view notifications"
-      (click)="drawer.toggle()" (click)="enableSidebar()" aria-label="Example icon-button with share icon">
+    <button mat-icon-button color="warn" class="example-icon" matTooltip="view notifications"
+      (click)="enableSidebar()" aria-label="Example icon-button with share icon">
       <mat-icon [matBadge]="notificationBadge > 0? notificationBadge : null"
-        matBadgeColor="warn">notifications</mat-icon>
+        matBadgeColor="primary">notifications</mat-icon>
     </button>
     <span class="example-spacer1"></span>
-    <button mat-icon-button color="primary" class="example-icon" matTooltip="Logout"
+    <button mat-icon-button color="warn" class="example-icon" matTooltip="Logout"
       aria-label="Example icon-button with share icon">
       <mat-icon>logout</mat-icon>
     </button>
@@ -110,7 +110,9 @@
   <ng-template #noContent>
     No patients for today
   </ng-template>
-  <div class="inner2" [hidden]="viewSidebar">
+
+
+  <!-- <div class="inner2" [hidden]="viewSidebar">
     <mat-drawer-container class="example-container" autosize>
       <mat-drawer #drawer class="example-sidenav" mode="side">
         <br>
@@ -167,6 +169,5 @@
 
     
 
-  </div>
+  </div> -->
 </div>
-<!-- <router-outlet></router-outlet> -->

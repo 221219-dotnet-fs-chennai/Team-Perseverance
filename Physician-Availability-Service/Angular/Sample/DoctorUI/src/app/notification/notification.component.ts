@@ -8,6 +8,10 @@ import { Router } from '@angular/router';
 })
 
 export class NotificationComponent implements OnInit{
+  
+  constructor(private route: Router) {}
+
+
   title = "Notification component"
   hidden = false;
   notificationBadge !: number;
@@ -26,7 +30,6 @@ export class NotificationComponent implements OnInit{
     this.basicDetails = false;
   }
 
-  constructor(private route: Router) {}
 
   ngOnInit() {
     this.totalPatients = this.patients.length;
@@ -38,11 +41,7 @@ export class NotificationComponent implements OnInit{
   }
 
   enableSidebar() {
-    if(this.viewSidebar)
-      this.viewSidebar = false;
-    else
-      this.viewSidebar = true;
-    this.route.navigate(['/appointments'])
+    this.route.navigate(['appointments'])
   }
 
   toggleHistory(){
@@ -71,9 +70,6 @@ export class NotificationComponent implements OnInit{
     this.history = false;
     this.healthRecord = false;
   }
-
-
-
 
 
 

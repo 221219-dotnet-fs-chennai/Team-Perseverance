@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NotificationComponent } from './notification/notification.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppointmentRequestsComponent } from './appointment-requests/appointment-requests.component';
 // import { Router } from '@angular/router';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -30,7 +31,8 @@ import { BasicDetailsComponent } from './basic-details/basic-details.component';
     NotificationComponent,
     PatientHistoryComponent,
     AddHelathComponent,
-    BasicDetailsComponent
+    BasicDetailsComponent,
+    AppointmentRequestsComponent
   ],
   imports: [
     BrowserModule,

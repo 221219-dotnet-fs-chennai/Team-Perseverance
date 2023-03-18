@@ -1,5 +1,77 @@
-<!-- <p>appointment-requests works!</p> -->
 
-<!-- <router-outlet></router-outlet> -->
+<p >
+    <mat-toolbar class="nav-bar">
+      <button mat-icon-button class="example-icon" color="warn" matTooltip="Menu" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span></span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button color="warn" matTooltip="Home" aria-label="Example icon button with a home icon">
+        <mat-icon>home</mat-icon>
+      </button>
+      <!-- <span class="example-spacer1"></span>
+      <button mat-icon-button color="primary" class="example-icon" matTooltip="view notifications"
+       aria-label="Example icon-button with share icon">
+        <mat-icon [matBadge]="notificationBadge > 0? notificationBadge : null"
+          matBadgeColor="warn">notifications</mat-icon>
+      </button> -->
+      <span class="example-spacer1"></span>
+      <button mat-icon-button color="warn" class="example-icon" matTooltip="Logout"
+        aria-label="Example icon-button with share icon">
+        <mat-icon>logout</mat-icon>
+      </button>
+    </mat-toolbar>
+  </p>
 
-<h1>Appointment</h1>
+<div class="inner2">
+    <br>
+    <div class="request-container">
+    <mat-card>
+        <mat-card-content>
+            <div class="appointment-card">
+                <mat-icon class="assignment-icon">assignment</mat-icon>
+                <h2 style="color: rgb(237, 97, 97);"><b>Appointment requests</b></h2>
+            </div>
+        </mat-card-content>
+    </mat-card>
+    <br>
+    <mat-accordion class="patient-container patient-container-2" multi="false">
+        <mat-expansion-panel *ngFor="let appointment of appointments" hideToggle class="expansions">
+            <mat-expansion-panel-header>
+                <mat-panel-title class="gender-icon-gap">
+                    <div [ngSwitch]="appointment.gender">
+                        <mat-icon *ngSwitchCase="'male'">male</mat-icon>
+                        <mat-icon *ngSwitchCase="'female'">female</mat-icon>
+                        <mat-icon *ngSwitchDefault>account_circle</mat-icon>
+                    </div>
+                    <button #x [value]="appointment.id" style="display: none;"></button>
+                    {{x.value}} - {{appointment.name}}
+                </mat-panel-title>
+                <mat-panel-description>
+                    {{appointment.date}}
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+
+            <div class="example-button-row">
+                <br>
+                <p></p>
+                <button class="btn-bottom-border first-btn" extended mat-button color="accent" style="color: green;"
+                    disabled="true">
+                    Booked appointment for <br>{{appointment.date}}
+                </button>
+                <span class="example-spacer2"></span>
+                <button class="btn-bottom-border" extended mat-button color="accent" style="color: green;"
+                    matTooltip="accept request">
+                    <mat-icon>done</mat-icon>Accept
+                </button>
+                <button class="btn-bottom-border" extended mat-button color="accent" style="color: red;"
+                    matTooltip="reject request">
+                    <mat-icon>clear</mat-icon>Reject
+                </button>
+                <br>
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+    <br>
+    </div>
+</div>
