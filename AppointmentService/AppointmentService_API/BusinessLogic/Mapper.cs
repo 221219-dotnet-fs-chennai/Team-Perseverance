@@ -20,6 +20,7 @@ namespace BusinessLogic
                 DoctorId = appointment.DoctorId,
                 NurseId = appointment.NurseId,
                 Status = appointment.Status,
+                Date = appointment.Date,
                 
 
             };
@@ -33,6 +34,7 @@ namespace BusinessLogic
                 DoctorId = appointment.DoctorId,
                 NurseId = appointment.NurseId,
                 Status = appointment.Status,
+                Date = appointment.Date
 
 
             };

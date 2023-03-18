@@ -12,6 +12,8 @@
 
         public short? Status { get; set; }
 
+        public string? Date { get; set; }
+
 
     }
 }

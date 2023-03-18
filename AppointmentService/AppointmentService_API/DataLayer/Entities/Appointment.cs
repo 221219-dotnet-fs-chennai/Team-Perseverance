@@ -14,4 +14,6 @@ public partial class Appointment
     public string? NurseId { get; set; }
 
     public short? Status { get; set; }
+
+    public string? Date { get; set; }
 }

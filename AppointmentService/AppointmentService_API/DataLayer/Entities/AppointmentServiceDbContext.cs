@@ -32,6 +32,10 @@ public partial class AppointmentServiceDbContext : DbContext
             entity.Property(e => e.AppointmentId)
                 .ValueGeneratedNever()
                 .HasColumnName("appointment_id");
+            entity.Property(e => e.Date)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("date");
             entity.Property(e => e.DoctorId)
                 .HasMaxLength(36)
                 .IsUnicode(false)
