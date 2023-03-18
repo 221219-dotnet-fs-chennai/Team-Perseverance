@@ -7,6 +7,7 @@ import { Guid } from 'guid-typescript';
 import { Observable } from 'rxjs';
 import { AddScheduleComponent } from './add-schedule/add-schedule.component';
 import { BookAppointmentComponent } from './show-doctors/ChooseDate/book-appointment/book-appointment.component';
+import { Router } from '@angular/router';
 //import {DialogOve}
 
 
@@ -40,7 +41,7 @@ export class AppComponent implements OnInit {
   title = 'Availability';
   showButton !: boolean;
 
-  constructor(private available : AvailabilityService, public dialog: MatDialog) { }
+  constructor(private available : AvailabilityService, public dialog: MatDialog, private route: Router) { }
 
   sch !: Schedule;
 
@@ -156,26 +157,10 @@ export class AppComponent implements OnInit {
 
 
   i !: number
-  
-  // ipdate: Date = new Date();
-  // dates !: Date[];
-  // show = false
-  
-  // ShowDates() {
 
-  //   if(this.show == false)
-  //     this.show = true
-  //   else
-  //     this.show = false
-
-  //   this.dates = []
-  //   for (this.i = 0; this.i <= 6; this.i++) {
-  //     this.ipdate = new Date(this.ipdate.getTime() + 86400000)
-  //     this.dates.push(this.ipdate);
-  //   }
-  //   console.log(this.dates);
-  //   this.ipdate = new Date();
-  // }
+  update(){
+    this.route.navigate(['updateSchedule'])
+  }
 }
 
 
