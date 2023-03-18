@@ -13,6 +13,8 @@ public partial class PatientBasicRecord
 
     public string? NurseId { get; set; }
 
+    public string? AppointmentId { get; set; }
+
     public string? Bp { get; set; }
 
     public int? HeartRate { get; set; }

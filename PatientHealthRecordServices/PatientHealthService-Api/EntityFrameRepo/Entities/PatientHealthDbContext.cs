@@ -33,11 +33,12 @@ public partial class PatientHealthDbContext : DbContext
     {
         modelBuilder.Entity<PatientAllergy>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__PatientA__3214EC07F9A76593");
+            entity.HasKey(e => e.Id).HasName("PK__PatientA__3214EC0736A1CF83");
 
             entity.ToTable("PatientAllergy");
 
             entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.AppointmentId).HasColumnName("Appointment_Id");
             entity.Property(e => e.HealthId)
                 .HasMaxLength(100)
                 .HasColumnName("Health_Id");
@@ -50,13 +51,14 @@ public partial class PatientHealthDbContext : DbContext
 
         modelBuilder.Entity<PatientBasicRecord>(entity =>
         {
-            entity.HasKey(e => e.PatientId).HasName("PK__PatientB__C1A88B79725AF210");
+            entity.HasKey(e => e.PatientId).HasName("PK__PatientB__C1A88B795B67E06E");
 
             entity.ToTable("PatientBasicRecord");
 
             entity.Property(e => e.PatientId)
                 .HasMaxLength(100)
                 .HasColumnName("Patient_Id");
+            entity.Property(e => e.AppointmentId).HasColumnName("Appointment_Id");
             entity.Property(e => e.DateTime).HasColumnType("smalldatetime");
             entity.Property(e => e.HeartRate).HasColumnName("Heart_Rate");
             entity.Property(e => e.NurseId).HasColumnName("Nurse_Id");
@@ -64,11 +66,12 @@ public partial class PatientHealthDbContext : DbContext
 
         modelBuilder.Entity<PatientHealthRecord>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__PatientH__3214EC07C1D42FB4");
+            entity.HasKey(e => e.Id).HasName("PK__PatientH__3214EC07EA5C2FEC");
 
             entity.ToTable("PatientHealthRecord");
 
             entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.AppointmentId).HasColumnName("Appointment_Id");
             entity.Property(e => e.DateTime).HasColumnType("smalldatetime");
             entity.Property(e => e.DoctorId).HasColumnName("Doctor_Id");
             entity.Property(e => e.PatientId).HasColumnName("Patient_Id");
@@ -76,11 +79,12 @@ public partial class PatientHealthDbContext : DbContext
 
         modelBuilder.Entity<PatientMedication>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__PatientM__3214EC07A09F9EA6");
+            entity.HasKey(e => e.Id).HasName("PK__PatientM__3214EC077E76D0F6");
 
             entity.ToTable("PatientMedication");
 
             entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.AppointmentId).HasColumnName("Appointment_Id");
             entity.Property(e => e.HealthId).HasColumnName("Health_Id");
 
             entity.HasOne(d => d.Health).WithMany(p => p.PatientMedications)
@@ -91,11 +95,12 @@ public partial class PatientHealthDbContext : DbContext
 
         modelBuilder.Entity<PatientTest>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__PatientT__3214EC073764237F");
+            entity.HasKey(e => e.Id).HasName("PK__PatientT__3214EC073B6A3769");
 
             entity.ToTable("PatientTest");
 
             entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.AppointmentId).HasColumnName("Appointment_Id");
             entity.Property(e => e.HealthId).HasColumnName("Health_Id");
 
             entity.HasOne(d => d.Health).WithMany(p => p.PatientTests)

@@ -17,6 +17,7 @@ namespace Models
         public DateTime Date_Time { get; set; }
         public string Patient_Id { get; set; }
         public string Doctor_Id { get; set; }
+        public string AppointmentId { get; set; }
         public string Conclusion { get; set; }
         public Guid Health_Id { get; set; }
         public string Drugs { get; set; }
@@ -25,7 +26,7 @@ namespace Models
 
         public string AllHealthDetailRecords()
         {
-            return $@"ID:{Id}\n,Date_Time: {Date_Time}\n,Patient_Id: {Patient_Id}\n,Doctor_Id: {Doctor_Id}\n,Health_Id: {Health_Id}\n,Drugs: {Drugs}\n,Test: {Test}\n,Result: {Result}\n,Conclusion: {Conclusion}\n";
+            return $@"ID:{Id}\n,Date_Time: {Date_Time}\n,Patient_Id: {Patient_Id}\n,Doctor_Id: {Doctor_Id}\n,Health_Id: {Health_Id}\n,Appointment_Id: {AppointmentId}\n,Drugs: {Drugs}\n,Test: {Test}\n,Result: {Result}\n,Conclusion: {Conclusion}\n";
         }
     }
 }

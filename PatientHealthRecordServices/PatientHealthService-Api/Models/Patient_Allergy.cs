@@ -14,6 +14,7 @@ namespace Models
         }
         public Guid Id { get; set; }
         public string Health_Id { get; set; }
+        public string Appointment_Id { get; set; }
         public string Allergy { get; set; }
 
     }

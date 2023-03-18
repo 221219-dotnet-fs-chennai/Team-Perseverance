@@ -66,6 +66,7 @@ namespace BusinessLogic
             {
                 s.DateTime= record.Date_Time;
                 s.NurseId= record.Nurse_Id;
+                s.AppointmentId = record.Appointment_Id;
                 s.Bp = record.Bp;
                 s.HeartRate= record.Heart_Rate;
                 s.SpO2= record.SpO2;
@@ -86,8 +87,8 @@ namespace BusinessLogic
                      select r).FirstOrDefault();
             if (s != null)
             {
-                s.Id = record.Id;
                 s.Allergy = record.Allergy;
+                s.AppointmentId= record.Appointment_Id;
 
                 s = _repo.UpdateAllergy(s);
             }
@@ -108,6 +109,7 @@ namespace BusinessLogic
                 s.DateTime = record.Date_Time;
                 s.PatientId = record.Patient_Id;
                 s.DoctorId = record.Doctor_Id;
+                s.AppointmentId = record.Appointment_Id;
                 s.Conclusion = record.Conclusion;
 
                 s = _repo.UpdateHealthRecord(s);
@@ -131,6 +133,7 @@ namespace BusinessLogic
             if (s != null)
             {
                 s.Drug = record.Drugs;
+                s.AppointmentId = record.Appointment_Id;
 
                 s = _repo.UpdateMedication(s);
             }
@@ -153,6 +156,7 @@ namespace BusinessLogic
             {
                 s.Test = record.Test;
                 s.Result = record.Result;
+                s.AppointmentId = record.Appointment_Id;
 
                 s = _repo.UpdateTest(s);
             }

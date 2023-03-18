@@ -8,6 +8,7 @@
         }
         public Guid Id { get; set; }
         public Guid Health_Id { get; set; }
+        public string Appointment_Id { get; set; }
         public string Test { get; set; }
         public string Result { get; set; }
 

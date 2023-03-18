@@ -13,6 +13,8 @@ public partial class PatientHealthRecord
 
     public string? DoctorId { get; set; }
 
+    public string? AppointmentId { get; set; }
+
     public string? Conclusion { get; set; }
 
     public virtual ICollection<PatientMedication> PatientMedications { get; } = new List<PatientMedication>();

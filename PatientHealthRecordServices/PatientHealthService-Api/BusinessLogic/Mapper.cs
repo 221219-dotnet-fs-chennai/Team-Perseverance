@@ -16,6 +16,7 @@ namespace BusinessLogic
                 Date_Time = (DateTime)r.DateTime,
                 Patient_Id = r.PatientId,
                 Nurse_Id = r.NurseId,
+                Appointment_Id = r.AppointmentId,
                 Bp = r.Bp,
                 Heart_Rate = (int)r.HeartRate,
                 SpO2 = r.SpO2
@@ -31,6 +32,7 @@ namespace BusinessLogic
                 DateTime = r.Date_Time,
                 PatientId = r.Patient_Id,
                 NurseId = r.Nurse_Id,
+                AppointmentId= r.Appointment_Id,
                 Bp = Validations.IsValidBP(r.Bp),
                 HeartRate = r.Heart_Rate,
                 SpO2 = r.SpO2
@@ -45,6 +47,7 @@ namespace BusinessLogic
                 Date_Time= (DateTime)hr.DateTime,
                 Patient_Id = hr.PatientId,
                 Doctor_Id= hr.DoctorId,
+                Appointment_Id = hr.AppointmentId,
                 Conclusion = hr.Conclusion
             };
         }
@@ -57,6 +60,7 @@ namespace BusinessLogic
                 DateTime = hr.Date_Time,
                 PatientId = hr.Patient_Id,
                 DoctorId = hr.Doctor_Id,
+                AppointmentId= hr.Appointment_Id,
                 Conclusion = hr.Conclusion
             };
         }
@@ -66,6 +70,7 @@ namespace BusinessLogic
             {
                 Id = mr.Id,
                 Health_Id = (Guid)mr.HealthId,
+                Appointment_Id = mr.AppointmentId,
                 Drugs = mr.Drug
             };
         }
@@ -76,6 +81,7 @@ namespace BusinessLogic
             {
                 Id = mr.Id,
                 HealthId = mr.Health_Id,
+                AppointmentId = mr.Appointment_Id,
                 Drug = mr.Drugs
             };
         }
@@ -85,6 +91,7 @@ namespace BusinessLogic
             {
                 Id = tm.Id,
                 Health_Id = (Guid)tm.HealthId,
+                Appointment_Id = tm.AppointmentId,
                 Test = tm.Test,
                 Result = tm.Result
             };
@@ -95,6 +102,7 @@ namespace BusinessLogic
             {
                 Id = tm.Id,
                 HealthId = tm.Health_Id,
+                AppointmentId = tm.Appointment_Id,
                 Test = tm.Test,
                 Result = tm.Result
             };
@@ -105,6 +113,7 @@ namespace BusinessLogic
             {
                 Id = ar.Id,
                 Health_Id = ar.HealthId,
+                Appointment_Id = ar.AppointmentId,
                 Allergy = ar.Allergy
             };
         }
@@ -115,6 +124,7 @@ namespace BusinessLogic
             {
                 Id = ar.Id,
                 HealthId = ar.Health_Id,
+                AppointmentId= ar.Appointment_Id,
                 Allergy = ar.Allergy
             };
         }

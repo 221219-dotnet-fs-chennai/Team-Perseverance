@@ -9,6 +9,8 @@ public partial class PatientTest
 
     public Guid? HealthId { get; set; }
 
+    public string? AppointmentId { get; set; }
+
     public string? Test { get; set; }
 
     public string? Result { get; set; }

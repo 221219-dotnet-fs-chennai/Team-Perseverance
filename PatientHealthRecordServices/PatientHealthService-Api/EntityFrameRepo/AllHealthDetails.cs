@@ -17,6 +17,7 @@ namespace EntityFrameRepo
         public DateTime Date_Time { get; set; }
         public string Patient_Id { get; set; }
         public string Doctor_Id { get; set; }
+        public string Appointment_Id { get; set; }
         public string Conclusion { get; set; }
         public Guid Health_Id { get; set; }
         public string Drugs { get; set; }
