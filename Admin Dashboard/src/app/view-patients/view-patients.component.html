@@ -1,0 +1,56 @@
+<div>
+  <mat-toolbar color="primary">
+   <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" matTooltip="Menu">
+    <mat-icon>menu</mat-icon>
+    <ng-template matMenuContent>
+      <button mat-menu-item>Pending Appointments</button>
+      <button mat-menu-item>Completed Appointments</button>
+    </ng-template>
+  </button> -->
+  <!-- <mat-menu #appMenu="matMenu">
+    <ng-template matMenuContent>
+      <button mat-menu-item>Add Doctor</button>
+      <button mat-menu-item>Add Nurse</button>
+      <button mat-menu-item>View Patients</button>
+    </ng-template>
+  </mat-menu> -->
+  <!-- [matMenuTriggerFor]="appMenu" -->
+  <button mat-icon-button  matTooltip="go back" routerLink="">
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+  <span style="margin-left: 45%; font-size: x-large;" class="space">View Patients</span>
+  <span class="example-spacer"></span>
+  <!-- <button mat-icon-button class="example-icon " aria-label="Example icon-button with heart icon" matTooltip="User">
+
+    <mat-icon>account_circle</mat-icon>
+  </button> -->
+  <!-- <mat-menu #appMenu="matMenu">
+    <ng-template matMenuContent>
+      <button mat-menu-item routerLink="/add-doctor">Add Doctor</button>
+      <button mat-menu-item>Add Nurse</button>
+      <button mat-menu-item>View Patients</button>
+    </ng-template>
+  </mat-menu> -->
+
+  <!-- <button mat-icon-button [matMenuTriggerFor]="appMenu" matTooltip="Menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" matTooltip="Logout">
+   <mat-icon>logout</mat-icon>
+ </button> -->
+</mat-toolbar>
+</div>
+<div class="mainpage">
+<div>
+    <h1 style="padding-left: 10px; font-size: x-large;">Latest Patients</h1>
+    <mat-accordion multi="false" *ngIf = "patients.length>0">
+      <mat-expansion-panel *ngFor="let item of patients">
+        <mat-expansion-panel-header>
+          {{item.title}}
+        </mat-expansion-panel-header>
+        <p>{{item.content}}</p>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>
+<!-- <p>view-patients works!</p> -->
