@@ -14,8 +14,15 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatButtonModule} from '@angular/material/button';
 import { AddScheduleComponent } from './add-schedule/add-schedule.component';
 import {MatRadioModule} from '@angular/material/radio';
-import { BookAppointmentComponent } from './book-appointment/book-appointment.component';
+import { BookAppointmentComponent } from './show-doctors/ChooseDate/book-appointment/book-appointment.component';
 import { ShowDoctorsComponent } from './show-doctors/show-doctors.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SnackbarComponent } from './add-schedule/snackbar/snackbar.component';
+import {MatCardModule} from '@angular/material/card';
+import { BookingAlertComponent } from './booking-alert/booking-alert.component';
+import { SnackbarBookingComponent } from './show-doctors/ChooseDate/snackbar-booking/snackbar-booking.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +32,9 @@ import { ShowDoctorsComponent } from './show-doctors/show-doctors.component';
     AddScheduleComponent,
     BookAppointmentComponent,
     ShowDoctorsComponent,
-
+    SnackbarComponent,
+    BookingAlertComponent,
+    SnackbarBookingComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +45,11 @@ import { ShowDoctorsComponent } from './show-doctors/show-doctors.component';
     MatChipsModule,
     HttpClientModule,
     MatButtonModule,
-    MatRadioModule
+    MatRadioModule,
+    MatCheckboxModule,
+    MatSnackBarModule,
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

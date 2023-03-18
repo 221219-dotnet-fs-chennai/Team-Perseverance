@@ -6,7 +6,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { Guid } from 'guid-typescript';
 import { Observable } from 'rxjs';
 import { AddScheduleComponent } from './add-schedule/add-schedule.component';
-import { BookAppointmentComponent } from './book-appointment/book-appointment.component';
+import { BookAppointmentComponent } from './show-doctors/ChooseDate/book-appointment/book-appointment.component';
 //import {DialogOve}
 
 
@@ -38,6 +38,7 @@ export interface Schedule {
 
 export class AppComponent implements OnInit {
   title = 'Availability';
+  showButton !: boolean;
 
   constructor(private available : AvailabilityService, public dialog: MatDialog) { }
 
@@ -53,7 +54,7 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit() {
-    
+    this.showButton = true
   }
 
   UpdateMon() 
@@ -116,6 +117,41 @@ export class AppComponent implements OnInit {
       enterAnimationDuration,
       exitAnimationDuration,
     });
+    this.showButton = false;
+  }
+
+  openAddDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+    this.dialog.open(AddScheduleComponent, {
+      width: '600px',
+      enterAnimationDuration,
+      exitAnimationDuration,
+    });
+  }
+
+  schedules : Schedule[] = [{
+    doctorId : "string",
+    Monday: 1,
+    Tuesday: 1,
+    Wednesday: 1,
+    Thursday: 1,
+    Friday: 1,
+    Saturday: 1,
+    Sunday : 1
+  },{
+    doctorId : "string",
+    Monday: 1,
+    Tuesday: 1,
+    Wednesday: 1,
+    Thursday: 1,
+    Friday: 1,
+    Saturday: 1,
+    Sunday : 1
+  }]
+  
+  
+  getDoctorIds(event : Schedule[]) {
+    this.schedules = event;
+    console.log("App component" + this.schedules);
   }
 
 

@@ -1,3 +1,7 @@
+.nav-bar{
+  background-color: rgb(38, 34, 34);
+}
+
 .example-spacer {
     flex: 0.95 1 auto;
   }
@@ -12,7 +16,7 @@
   }
   .expansions{
     position: relative;
-    width : 100%;
+    width : 98%;
     padding: 5px;
   }
 
@@ -41,18 +45,22 @@
 
   .patient-container{
     position : relative;
-    width : 100%;
+    width : 80%;
   }
 
   .outer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    position: relative;
+    margin-left : 20%;
+    justify-content: center;
 }
 
 .inner1{
-    width: 115vh;
-    padding-left: 40px;
+    position: relative;
+    width : 60%;
+    text-align: center;
 }
 
 .inner2{
@@ -118,3 +126,13 @@
   position: relative;
   right : 5%;
 }
+
+/* .patient-container{
+  position : relative;
+  width : 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  margin-top: 5%;
+} */

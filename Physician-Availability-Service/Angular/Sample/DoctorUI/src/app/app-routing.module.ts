@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-// import { AppointmentRequestsComponent } from './appointment-requests/appointment-requests.component';
+import { AppointmentRequestsComponent } from './appointment-requests/appointment-requests.component';
 import { NotificationComponent } from './notification/notification.component';
 
 const routes: Routes = [
-  // { path : 'apponitments', component : AppointmentRequestsComponent},
-  {path: 'notifications', component:NotificationComponent}
+  { path : 'appointments', component : AppointmentRequestsComponent},
+  { path : 'Doctor-dashBoard', component : NotificationComponent},
+  {path: '', redirectTo: '/Doctor-dashBoard', pathMatch : 'full'}
 ];
 
 @NgModule({
