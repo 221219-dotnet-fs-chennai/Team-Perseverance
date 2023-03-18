@@ -23,6 +23,8 @@ import { SnackbarComponent } from './add-schedule/snackbar/snackbar.component';
 import {MatCardModule} from '@angular/material/card';
 import { BookingAlertComponent } from './booking-alert/booking-alert.component';
 import { SnackbarBookingComponent } from './show-doctors/ChooseDate/snackbar-booking/snackbar-booking.component';
+import { UpdateScheduleComponent } from './update-schedule/update-schedule.component';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { SnackbarBookingComponent } from './show-doctors/ChooseDate/snackbar-boo
     ShowDoctorsComponent,
     SnackbarComponent,
     BookingAlertComponent,
-    SnackbarBookingComponent
+    SnackbarBookingComponent,
+    UpdateScheduleComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +52,8 @@ import { SnackbarBookingComponent } from './show-doctors/ChooseDate/snackbar-boo
     MatCheckboxModule,
     MatSnackBarModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

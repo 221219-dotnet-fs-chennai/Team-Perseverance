@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+  }
+
+  .table-card{
+    position : relative;
+    width : 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+
+  .positions{
+    position: relative;
+    margin-left: 40px;
+  }
+
+  .position-head{
+    padding-left: 8%;
+  }
+
+  .position-data{
+    padding-left: 8%;
+  }
