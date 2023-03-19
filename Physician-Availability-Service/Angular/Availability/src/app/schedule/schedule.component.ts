@@ -32,7 +32,7 @@ export class ScheduleComponent {
 
   UpdateSchedule() {
     let day = this.currentDate.getDay();
-    let sch : Schedule = {
+    let sch : Schedule[] = [{
       doctorId : "00-817d8db358ce32f76aa9c8d36eert",
       Monday : (day == 1) ? this.dayUpdate : 0,
       Tuesday : (day == 2) ? this.dayUpdate : 0,
@@ -41,7 +41,7 @@ export class ScheduleComponent {
       Friday : (day == 5) ? this.dayUpdate : 0,
       Saturday : (day == 6) ? this.dayUpdate : 0,
       Sunday : (day == 0) ? this.dayUpdate : 0,
-    };
+    }];
     this.schedule.UpdateDaySchedule(day, sch).subscribe(data => console.log(data));
     this.updateBox = false;
   }

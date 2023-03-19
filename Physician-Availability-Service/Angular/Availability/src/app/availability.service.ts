@@ -14,8 +14,8 @@ export class AvailabilityService {
     return this.http.post<Schedule>('https://localhost:44337/api/PhysicianAvailability/AddSchedule', sch);
   }
 
-  UpdateDaySchedule(day: number, sch : Schedule) {
-    return this.http.put<Schedule>(`https://localhost:44337/api/PhysicianAvailability/UpdateSchedule?day=${day}`, sch);
+  UpdateDaySchedule(day: number, sch : Schedule[]) {
+    return this.http.put<Schedule[]>(`https://localhost:44337/api/PhysicianAvailability/UpdateAllSchedules?day=${day}`, sch);
   }
 
   GetDaySchedule(day: string) {

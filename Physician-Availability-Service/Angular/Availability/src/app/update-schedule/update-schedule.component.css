@@ -6,7 +6,13 @@ table {
     position : relative;
     width : 50%;
     margin-left: 25%;
-    margin-top: 10%;
+    margin-top: 5%;
+    border: none;
+  }
+
+  .update-title{
+    text-align: center;
+    color : #ec3b79;
   }
 
   .positions{
@@ -15,9 +21,17 @@ table {
   }
 
   .position-head{
-    padding-left: 8%;
+    padding-left: 5%;
   }
 
   .position-data{
-    padding-left: 8%;
+    padding-left: 5%;
   }
+
+  .position-head-check{
+    padding-left: 2%;
+  }
+
+  /* .update-btn{
+
+  } */
