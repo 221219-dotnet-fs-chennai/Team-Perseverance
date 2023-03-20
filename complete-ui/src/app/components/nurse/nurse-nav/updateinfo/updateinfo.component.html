@@ -1,0 +1,73 @@
+<div class="nav">
+  <p>
+    <mat-toolbar color="primary">
+      <button mat-icon-button matTooltip="go back" (click)="goBack()">
+        <mat-icon>arrow_back</mat-icon>
+      </button>
+      <span class="example-spacer"></span>
+      <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <div mat-dialog-content>
+          Name : Parker
+        </div>
+        <div> Email : parker@gmail.com
+        </div>
+      </mat-menu>
+    </mat-toolbar>
+  </p>
+</div>
+
+<div>
+    <h1 style="text-align: center;">Add basic Health Record for patient</h1>
+</div>
+<form class="updateform" [formGroup]="updateform" (ngSubmit)="update()">
+  <div>
+    <mat-form-field appearance="outline" class="example-full-width">
+      <mat-label>Blood Pressure</mat-label>
+      <input matInput formControlName="bp" placeholder="Ex. 120/80">
+      <mat-error *ngIf="bp && bp.invalid && (bp.dirty || bp.touched)" style="white-space: nowrap;">
+        <span *ngIf="bp.errors?.['required']">Blood Pressure is required. </span>
+        <span *ngIf="bp.errors?.['pattern']">Blood Pressure should be in the format of '120/80'.</span>
+      </mat-error>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field appearance="outline" class="example-full-width">
+      <mat-label>Heart Rate</mat-label>
+      <input matInput formControlName="rate" placeholder="60 - 120">
+      <mat-error *ngIf="rate &&rate.invalid && (rate.dirty || rate.touched)" style="white-space: nowrap;">
+        <span *ngIf="rate.errors?.['required']">Heart Rate is required. </span>
+        <span *ngIf="rate.errors?.['pattern']">Heart Rate should be between 60 and 120.</span>
+      </mat-error>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field appearance="outline" class="example-full-width">
+      <mat-label>SpO2</mat-label>
+      <input matInput formControlName="spo2" placeholder="90% - 100%">
+      <mat-error *ngIf="spo2 && spo2.invalid && (spo2.dirty || spo2.touched)" style="white-space: nowrap;">
+        <span *ngIf="spo2.errors?.['required']">SpO2 is required. </span>
+        <span *ngIf="spo2.errors?.['pattern']">SpO2 should be between 90% and 100%.</span>
+      </mat-error>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field appearance="outline">
+      <mat-label>Allergies</mat-label>
+      <mat-select [formControl]="toppings" multiple>
+        <mat-select-trigger>
+          {{toppings.value?.[0] || ''}}
+          <span *ngIf="(toppings.value?.length || 0) > 1" class="example-additional-selection">
+            (+{{(toppings.value?.length || 0) - 1}} {{toppings.value?.length === 2 ? 'other' : 'others'}})
+          </span>
+        </mat-select-trigger>
+        <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div>
+    <button mat-raised-button color="primary" id="but">submit</button>
+  </div>
+</form>
