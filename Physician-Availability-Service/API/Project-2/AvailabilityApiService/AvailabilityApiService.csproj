@@ -5,6 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>f93c1ba7-bd0b-4f38-bc39-3a4aa2a7a9bf</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\FluentApi</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>

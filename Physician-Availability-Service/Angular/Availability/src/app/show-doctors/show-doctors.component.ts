@@ -15,9 +15,10 @@ export class ShowDoctorsComponent implements OnInit {
   constructor(private schedule: AvailabilityService, @Inject(localStorageToken) private localStorage : any,
    public dialog: MatDialog) {}
   schedules : Schedule[] = [] 
-  getDoctorIds(event : Schedule[]) {
-    event.forEach(ele => this.schedules.push(ele));
-  }
+  
+  // getDoctorIds(event : Schedule[]) {
+  //   event.forEach(ele => this.schedules.push(ele));
+  // }
 
   ngOnInit(): void {
     this.schedule.GetDaySchedule(this.localStorage.getItem('selectedDay')).subscribe((data) => {

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { SnackbarBookingComponent } from '../snackbar-booking/snackbar-booking.component';
+import { SnackbarBookingComponent } from '../show-doctors/snackbar-booking/snackbar-booking.component';
 
 @Component({
   selector: 'app-booking-alert',

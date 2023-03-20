@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
+import { BookAppointmentComponent } from '../../book-appointment/book-appointment.component';
 
 @Component({
   selector: 'app-patient-dashboard',
@@ -10,9 +11,9 @@ import { Router } from '@angular/router';
 export class PatientDashboardComponent {
   panelOpenState = false;
   constructor (private dialog:MatDialog, private router:Router) {}
-  openPopup(){
-    // this.dialog.open(BookappointmentComponent)
-  }
+  // openPopup(){
+  //   // this.dialog.open(BookappointmentComponent)
+  // }
 
   show = false
 
@@ -20,9 +21,9 @@ export class PatientDashboardComponent {
     this.show = !this.show
   }
 
-  navToBookApp(){
-    this.router.navigate(['book-appointment'])
-  }
+  // navToBookApp(){
+  //   this.router.navigate(['book-appointment'])
+  // }
 
   navToPatientProfile(){
     this.router.navigate(['/view-your-profile'])
@@ -38,6 +39,14 @@ export class PatientDashboardComponent {
     {appointmentNo:2, doctorName:'Jack',date: new Date()},
     {appointmentNo:3, doctorName:'John',date: new Date()},
   ]
+
+  openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+    this.dialog.open(BookAppointmentComponent, {
+      width: '400px',
+      enterAnimationDuration,
+      exitAnimationDuration,
+    });
+  }
 }
 
 export interface appointmentdetails{

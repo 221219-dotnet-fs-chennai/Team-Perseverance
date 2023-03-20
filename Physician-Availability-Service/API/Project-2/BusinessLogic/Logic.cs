@@ -19,43 +19,6 @@ namespace BusinessLogic
             repo.Add(doctorSchedule);
         }
 
-        public DoctorSchedule? UpdateSchedule(int day, DoctorSchedule doctorSchedule)
-        {
-            DoctorSchedule? oldSchedule = repo.Get().Where(s => s.DoctorId == doctorSchedule.DoctorId).FirstOrDefault();
-            if (oldSchedule == null)
-            {
-                return null;
-            }
-            switch (day)
-            {
-                case 0:
-                    oldSchedule.Sunday = doctorSchedule.Sunday;
-                    break;
-                case 1:
-                    oldSchedule.Monday = doctorSchedule.Monday;
-                    break;
-                case 2:
-                    oldSchedule.Tuesday = doctorSchedule.Tuesday;
-                    break;
-                case 3:
-                    oldSchedule.Wednesday = doctorSchedule.Wednesday;
-                    break;
-                case 4:
-                    oldSchedule.Thursday = doctorSchedule.Thursday;
-                    break;
-                case 5:
-                    oldSchedule.Friday = doctorSchedule.Friday;
-                    break;
-                case 6:
-                    oldSchedule.Saturday = doctorSchedule.Saturday;
-                    break;
-                default:
-                    break;
-            }
-
-            repo.Update(oldSchedule);
-            return oldSchedule;
-        }
 
         public IEnumerable<DoctorSchedule>? GetSchedule(string day) {
             switch (day)
@@ -80,6 +43,49 @@ namespace BusinessLogic
                     return null;
             }
             
+        }
+
+        public IEnumerable<DoctorSchedule>? UpdateAllDoctors(int day, IEnumerable<DoctorSchedule> allDoctorSchedules)
+        {
+            List<DoctorSchedule> oldDoctorSchedules = new List<DoctorSchedule>();
+            foreach (DoctorSchedule doctorSchedule in allDoctorSchedules)
+            {
+                DoctorSchedule? oldSchedule = repo.Get().Where(s => s.DoctorId == doctorSchedule.DoctorId).FirstOrDefault();
+                if (oldSchedule == null)
+                {
+                    return null;
+                }
+                oldDoctorSchedules.Add(oldSchedule);
+                switch (day)
+                {
+                    case 0:
+                        oldSchedule.Sunday = doctorSchedule.Sunday;
+                        break;
+                    case 1:
+                        oldSchedule.Monday = doctorSchedule.Monday;
+                        break;
+                    case 2:
+                        oldSchedule.Tuesday = doctorSchedule.Tuesday;
+                        break;
+                    case 3:
+                        oldSchedule.Wednesday = doctorSchedule.Wednesday;
+                        break;
+                    case 4:
+                        oldSchedule.Thursday = doctorSchedule.Thursday;
+                        break;
+                    case 5:
+                        oldSchedule.Friday = doctorSchedule.Friday;
+                        break;
+                    case 6:
+                        oldSchedule.Saturday = doctorSchedule.Saturday;
+                        break;
+                    default:
+                        break;
+                }
+
+                repo.Update(oldSchedule);
+            }
+            return oldDoctorSchedules;
         }
     }
 }

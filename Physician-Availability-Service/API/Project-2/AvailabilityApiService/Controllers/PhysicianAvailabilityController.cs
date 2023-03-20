@@ -60,17 +60,16 @@ namespace AvailabilityApiService.Controllers
             }
         }
 
+        [HttpPut("UpdateAllSchedules")]
 
-        [HttpPut("UpdateSchedule")]
-
-        public IActionResult Update([FromQuery] int day,[FromBody] DoctorSchedule doctorSchedule)
+        public IActionResult UpdateAll([FromQuery] int day, [FromBody] IEnumerable<DoctorSchedule> doctorSchedules)
         {
             try
             {
-                if (doctorSchedule != null)
+                if (doctorSchedules != null)
                 {
-                    logic.UpdateSchedule(day, doctorSchedule);
-                    return Ok(doctorSchedule);
+                    logic.UpdateAllDoctors(day, doctorSchedules);
+                    return Ok(doctorSchedules);
                 }
                 else
                     return BadRequest("Null data couldn't be updated");

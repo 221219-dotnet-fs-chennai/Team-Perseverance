@@ -2,10 +2,10 @@
 
 import { Component, Input, OnInit, Output, EventEmitter, Inject } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
-import { AvailabilityService } from '../../../availability.service';
-import { Schedule } from '../../../app.component';
+import { AvailabilityService } from '../patient/availability.service';
+import { Schedule } from 'src/app/schedule';
 import { Router } from '@angular/router';
-import { localStorageToken } from 'src/app/localstorage.token';
+import { localStorageToken } from '../patient/show-doctors/localstorage.token';
 
 @Component({
   selector: 'app-book-appointment',
@@ -21,7 +21,7 @@ export class BookAppointmentComponent implements OnInit {
 
   passDoctorIds() {
     // this.doctorIds.emit(this.schedules);
-    this.route.navigate(['showDoctors']);
+    this.route.navigate(['show-doctors']);
   }
 
 
