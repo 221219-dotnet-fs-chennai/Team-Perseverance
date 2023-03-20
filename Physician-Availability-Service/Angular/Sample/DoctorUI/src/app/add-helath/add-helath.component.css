@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+mat-expansion-panel{
+    width: 800px;
+}
+
 .test-fields{
     display: flex;
     flex-direction: row;

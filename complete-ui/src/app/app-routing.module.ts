@@ -79,6 +79,9 @@ const routes: Routes = [
   },
   {
     path: 'book-appointment', component:ShowDoctorsComponent,
+  },
+  {
+    path: 'show-doctors', component:ShowDoctorsComponent,
   }
 ];
 

@@ -64,7 +64,8 @@ import {MatTableModule} from '@angular/material/table';
 import { UpdateScheduleComponent } from './components/admin/update-schedule/update-schedule.component';
 import { ShowDoctorsComponent } from './components/patient/show-doctors/show-doctors.component';
 import { BookingAlertComponent } from './components/patient/booking-alert/booking-alert.component';
-import { SnackbarBookingComponent } from './components/patient/snackbar-booking/snackbar-booking.component';
+import { SnackbarBookingComponent } from './components/patient/show-doctors/snackbar-booking/snackbar-booking.component';
+import { BookAppointmentComponent } from './components/book-appointment/book-appointment.component';
 
  
 
@@ -97,6 +98,7 @@ import { SnackbarBookingComponent } from './components/patient/snackbar-booking/
     ShowDoctorsComponent,
     BookingAlertComponent,
     SnackbarBookingComponent,
+    BookAppointmentComponent,
   ],
   imports: [
     BrowserModule,
