@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { DoctorServiceService } from './services/doctor-service.service';
 import { Router } from '@angular/router';
+import { AddScheduleComponent } from '../add-schedule/add-schedule.component';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-add-doctor',
@@ -10,7 +12,8 @@ import { Router } from '@angular/router';
 })
 export class AddDoctorComponent implements OnInit {
 
-  constructor(private service : DoctorServiceService, private fb: FormBuilder, private router: Router) {}
+  constructor(private service : DoctorServiceService, private fb: FormBuilder, private router: Router,
+    public dialog: MatDialog) {}
   ngOnInit(): void {
     this.doctorForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
@@ -36,4 +39,12 @@ export class AddDoctorComponent implements OnInit {
   toggle(){
     this.show = !this.show
   } 
+
+  openAddDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+    this.dialog.open(AddScheduleComponent, {
+      width: '600px',
+      enterAnimationDuration,
+      exitAnimationDuration,
+    });
+  }
 }
