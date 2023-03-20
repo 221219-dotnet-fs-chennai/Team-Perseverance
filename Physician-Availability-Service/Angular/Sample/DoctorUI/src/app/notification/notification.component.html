@@ -23,8 +23,6 @@
   </mat-toolbar>
 </p>
 
-
-
 <div class="outer">
   <div class="inner1" *ngIf="totalPatients > 0; else noContent">
     <h2>Patients for today - {{date | date : 'EEEE'}}</h2>
@@ -93,7 +91,7 @@
           <br>
           <h2 style="text-align: center; color: green;">{{patient.name}}'s health history</h2>
           <div class="card-container">
-            <app-patient-history ></app-patient-history>
+            <app-patient-history></app-patient-history>
           </div>
           <br>
           <mat-card-actions  class="btn-close">
