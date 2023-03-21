@@ -33,7 +33,7 @@ public partial class PatientHealthDbContext : DbContext
     {
         modelBuilder.Entity<PatientAllergy>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__PatientA__3214EC0736A1CF83");
+            entity.HasKey(e => e.Id).HasName("PK__PatientA__3214EC07310CFB90");
 
             entity.ToTable("PatientAllergy");
 
@@ -51,7 +51,7 @@ public partial class PatientHealthDbContext : DbContext
 
         modelBuilder.Entity<PatientBasicRecord>(entity =>
         {
-            entity.HasKey(e => e.PatientId).HasName("PK__PatientB__C1A88B795B67E06E");
+            entity.HasKey(e => e.PatientId).HasName("PK__PatientB__C1A88B79804ECD0A");
 
             entity.ToTable("PatientBasicRecord");
 
@@ -59,6 +59,7 @@ public partial class PatientHealthDbContext : DbContext
                 .HasMaxLength(100)
                 .HasColumnName("Patient_Id");
             entity.Property(e => e.AppointmentId).HasColumnName("Appointment_Id");
+            entity.Property(e => e.BloodGroup).HasColumnName("Blood_Group");
             entity.Property(e => e.DateTime).HasColumnType("smalldatetime");
             entity.Property(e => e.HeartRate).HasColumnName("Heart_Rate");
             entity.Property(e => e.NurseId).HasColumnName("Nurse_Id");

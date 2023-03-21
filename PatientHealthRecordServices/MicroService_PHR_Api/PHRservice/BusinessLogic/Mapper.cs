@@ -20,7 +20,11 @@ namespace BusinessLogic
                 Appointment_Id = r.AppointmentId,
                 Bp = r.Bp,
                 Heart_Rate = (int)r.HeartRate,
-                SpO2 = r.SpO2
+                SpO2 = r.SpO2,
+                Height = r.Height,
+                Weight = r.Weight,
+                BloodGroup = r.BloodGroup,
+                Temperature = r.Temperature
 
             };
         }
@@ -36,7 +40,11 @@ namespace BusinessLogic
                 AppointmentId = r.Appointment_Id,
                 Bp = Validation.IsValidBP(r.Bp),
                 HeartRate = r.Heart_Rate,
-                SpO2 = r.SpO2
+                SpO2 = r.SpO2,
+                Height = r.Height,
+                Weight = r.Weight,
+                BloodGroup = r.BloodGroup,
+                Temperature = r.Temperature
             };
         }
 
