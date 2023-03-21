@@ -6,7 +6,7 @@
       <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group" [(ngModel)]="selectedDay">
         <div *ngFor="let date of dates">
           <mat-radio-button class="example-radio-button" [value]="date | date : 'EEEE'" (change)="valChange($event)">
-            {{date | date : 'mediumDate'}}
+            {{date | date : 'dd-MMM-yyyy'}}
           </mat-radio-button>
         </div>
       </mat-radio-group>

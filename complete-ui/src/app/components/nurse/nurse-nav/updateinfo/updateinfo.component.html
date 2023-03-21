@@ -67,6 +67,51 @@
       </mat-select>
     </mat-form-field>
   </div>
+    <div>
+    <mat-form-field appearance="outline" class="example-full-width">
+      <mat-label>Height</mat-label>
+      <input matInput formControlName="height" placeholder="in cm">
+      <mat-error *ngIf="height && height.invalid && (height.dirty || height.touched)" style="white-space: nowrap;">
+        <span *ngIf="height.errors?.['required']">Height is required. </span>
+        <span *ngIf="height.errors?.['pattern']">Height should be in cms.</span>
+      </mat-error>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field appearance="outline" class="example-full-width">
+      <mat-label>Weight</mat-label>
+      <input matInput formControlName="weight" placeholder="in kgs">
+      <mat-error *ngIf="weight && weight.invalid && (weight.dirty || weight.touched)" style="white-space: nowrap;">
+        <span *ngIf="weight.errors?.['required']">weight is required. </span>
+        <span *ngIf="weight.errors?.['pattern']">weight should be in kgs.</span>
+      </mat-error>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field appearance="outline" class="example-full-width">
+      <mat-label>Body Temperature</mat-label>
+      <input matInput formControlName="temp" placeholder="in °C">
+      <mat-error *ngIf="temp && temp.invalid && (temp.dirty || temp.touched)" style="white-space: nowrap;">
+        <span *ngIf="temp.errors?.['required']">Body Temperature is required. </span>
+        <span *ngIf="temp.errors?.['pattern']">Blood Group should be in the format like 37.1.</span>
+      </mat-error>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field appearance="outline" class="example-full-width">
+      <mat-label>Blood Group</mat-label>
+      <mat-select disableRipple>
+        <mat-option value="1">O+</mat-option>
+        <mat-option value="2">O-</mat-option>
+        <mat-option value="3">A+</mat-option>
+        <mat-option value="1">A-</mat-option>
+        <mat-option value="2">B+</mat-option>
+        <mat-option value="3">B-</mat-option>
+        <mat-option value="3">AB+</mat-option>
+        <mat-option value="3">AB-</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
   <div>
     <button mat-raised-button color="primary" id="but">submit</button>
   </div>
