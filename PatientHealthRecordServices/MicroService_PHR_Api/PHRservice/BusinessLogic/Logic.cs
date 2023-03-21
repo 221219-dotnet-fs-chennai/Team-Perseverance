@@ -69,6 +69,10 @@ namespace BusinessLogic
                 s.Bp = record.Bp;
                 s.HeartRate = record.Heart_Rate;
                 s.SpO2 = record.SpO2;
+                s.Height= record.Height;
+                s.Weight = record.Weight;
+                s.BloodGroup= record.BloodGroup;
+                s.Temperature= record.Temperature;
 
                 s = _repo.UpdateBasicRecord(s);
             }

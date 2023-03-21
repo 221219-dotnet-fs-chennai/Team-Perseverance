@@ -6,7 +6,11 @@ CREATE TABLE [PatientBasicRecord](
     [Appointment_Id] NVARCHAR(max),
     [Bp] NVARCHAR(max),
     [Heart_Rate] int,
-    [SpO2] NVARCHAR(max) 
+    [SpO2] NVARCHAR(max),
+    [Weight] NVARCHAR(max),
+    [Height] NVARCHAR(max),
+    [Blood_Group] NVARCHAR(max),
+    [Temperature] NVARCHAR(max)
 );
 
 
@@ -50,4 +54,3 @@ SELECT * FROM PatientAllergy
 SELECT * FROM PatientHealthRecord
 SELECT * FROM PatientMedication
 SELECT * FROM PatientTest
-

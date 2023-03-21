@@ -21,5 +21,13 @@ public partial class PatientBasicRecord
 
     public string? SpO2 { get; set; }
 
+    public string? Weight { get; set; }
+
+    public string? Height { get; set; }
+
+    public string? BloodGroup { get; set; }
+
+    public string? Temperature { get; set; }
+
     public virtual ICollection<PatientAllergy> PatientAllergies { get; } = new List<PatientAllergy>();
 }

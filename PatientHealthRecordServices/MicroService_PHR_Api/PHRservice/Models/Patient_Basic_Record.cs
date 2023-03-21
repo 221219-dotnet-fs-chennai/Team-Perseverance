@@ -20,5 +20,13 @@ namespace Models
         public string Bp { get; set; }
         public int Heart_Rate { get; set; }
         public string SpO2 { get; set; }
+
+        public string Weight { get; set; }
+
+        public string Height { get; set; }
+
+        public string BloodGroup { get; set; }
+
+        public string Temperature { get; set; }
     }
 }

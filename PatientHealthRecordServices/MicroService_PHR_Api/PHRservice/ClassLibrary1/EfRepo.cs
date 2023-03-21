@@ -64,6 +64,10 @@ namespace EntityFrame
                                   Bp = b.Bp,
                                   Heart_Rate = (int)b.HeartRate,
                                   SpO2 = b.SpO2,
+                                  Height = b.Height,
+                                  Weight = b.Weight,
+                                  BloodGroup = b.BloodGroup,
+                                  Temperature = b.Temperature,
                                   Health_Id = p.HealthId,
                                   Allergy = p.Allergy
 
