@@ -8,7 +8,7 @@
   </button>
 </mat-toolbar><br>
 <h1>Hello! Please complete the registration</h1>
-<form [formGroup]="registerForm">
+<form [formGroup]="registerForm" (ngSubmit)="registration()">
   <div class="container">
     <div>
       <mat-form-field appearance="outline">
