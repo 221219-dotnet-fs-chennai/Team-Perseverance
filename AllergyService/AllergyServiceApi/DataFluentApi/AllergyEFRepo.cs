@@ -13,6 +13,13 @@
             return context.Allergies.ToList();
         }
 
+        public Allergy Add(Allergy entity)
+        {
+            context.Allergies.Add(entity);
+            context.SaveChanges();
+            return entity;
+        }
+
 
 
     }

@@ -22,5 +22,10 @@ namespace BusinessLogic
         {
             return Mapper.Map(_repo.GetAllData());
         }
+
+        public Allergy AddAllergy(Allergy allergy)
+        {
+            return Mapper.Map(_repo.Add(Mapper.Map(allergy)));
+        }
     }
 }

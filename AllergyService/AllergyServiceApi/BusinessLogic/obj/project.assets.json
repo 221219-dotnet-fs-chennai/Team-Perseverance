@@ -3264,11 +3264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rev\\Project 2\\AllergyServiceApi\\BusinessLogic\\BusinessLogic.csproj",
+      "projectUniqueName": "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\BusinessLogic\\BusinessLogic.csproj",
       "projectName": "BusinessLogic",
-      "projectPath": "D:\\Rev\\Project 2\\AllergyServiceApi\\BusinessLogic\\BusinessLogic.csproj",
+      "projectPath": "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\BusinessLogic\\BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\Bhanu\\.nuget\\packages\\",
-      "outputPath": "D:\\Rev\\Project 2\\AllergyServiceApi\\BusinessLogic\\obj\\",
+      "outputPath": "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bhanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3285,11 +3285,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Rev\\Project 2\\AllergyServiceApi\\DataFluentApi\\DataFluentApi.csproj": {
-              "projectPath": "D:\\Rev\\Project 2\\AllergyServiceApi\\DataFluentApi\\DataFluentApi.csproj"
+            "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\DataFluentApi\\DataFluentApi.csproj": {
+              "projectPath": "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\DataFluentApi\\DataFluentApi.csproj"
             },
-            "D:\\Rev\\Project 2\\AllergyServiceApi\\Models\\Models.csproj": {
-              "projectPath": "D:\\Rev\\Project 2\\AllergyServiceApi\\Models\\Models.csproj"
+            "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\Models\\Models.csproj": {
+              "projectPath": "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\Models\\Models.csproj"
             }
           }
         }

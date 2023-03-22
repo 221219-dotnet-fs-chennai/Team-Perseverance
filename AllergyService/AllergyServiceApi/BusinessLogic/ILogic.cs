@@ -11,5 +11,7 @@ namespace BusinessLogic
     public interface ILogic
     {
         public IEnumerable<Allergy> GetAllergies();
+        public Allergy AddAllergy(Allergy allergy);
+
     }
 }

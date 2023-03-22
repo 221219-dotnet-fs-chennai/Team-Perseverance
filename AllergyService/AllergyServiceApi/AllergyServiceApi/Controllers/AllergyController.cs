@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using BusinessLogic;
 
 namespace AllergyServiceApi.Controllers
@@ -27,6 +26,20 @@ namespace AllergyServiceApi.Controllers
             else
             {
                 return BadRequest();
+            }
+        }
+
+        [HttpPost("AddAllergy")]
+        public IActionResult Add([FromBody] Models.Allergy allergy)
+        {
+            try
+            {
+                var details = logic.AddAllergy(allergy);
+                return Created("Add", details);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
     }

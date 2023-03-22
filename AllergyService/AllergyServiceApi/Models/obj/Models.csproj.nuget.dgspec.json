@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rev\\Project 2\\AllergyServiceApi\\Models\\Models.csproj": {}
+    "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\Models\\Models.csproj": {}
   },
   "projects": {
-    "D:\\Rev\\Project 2\\AllergyServiceApi\\Models\\Models.csproj": {
+    "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rev\\Project 2\\AllergyServiceApi\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Rev\\Project 2\\AllergyServiceApi\\Models\\Models.csproj",
+        "projectPath": "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\Bhanu\\.nuget\\packages\\",
-        "outputPath": "D:\\Rev\\Project 2\\AllergyServiceApi\\Models\\obj\\",
+        "outputPath": "C:\\CapStone\\Team-Perseverance\\AllergyService\\AllergyServiceApi\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bhanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
