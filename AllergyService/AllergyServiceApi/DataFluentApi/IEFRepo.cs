@@ -10,6 +10,8 @@ namespace DataFluentApi
     public interface IEFRepo
     {
         public List<Allergy> GetAllData();
+        public Allergy Add(Allergy entity);
+
 
     }
 }

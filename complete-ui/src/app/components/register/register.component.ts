@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,20 +8,27 @@ import { Router } from '@angular/router';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit{
+  service: any;
   constructor(private router : Router, private fb : FormBuilder){}
   isLoggedIn = true // TO-DO for hidding logout button
   registerForm !: FormGroup
   ngOnInit(): void {
     this.registerForm = this.fb.group({
-      email: [''],
-      password:[''],
-      name: [''],
-      phone:[''],
-      address:[''],
-      city:[''],
-      state:[''],
-      age:[''],
-      gender:[''],
+      email : ['', [Validators.required, Validators.email]],
+      password:['',[Validators.required,Validators.pattern("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$")]],
+      name: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
+      phoneNo: ['', Validators.pattern("^([6-9]\d{9})$")],
+      address:['',Validators.pattern("^.{5,}$")],
+      city:['',Validators.pattern("^[A-Za-z]+$")],
+      state:['',Validators.pattern("^[A-Za-z]+$")],
+      age:['',Validators.pattern("^[0-9]+$")],
+      gender : ['', [Validators.pattern("^(male|female|other|Male|Female|Other)$")]]
+    })
+  }
+  registration(){
+    console.log(this.registerForm.getRawValue())
+    this.service.registration(this.registerForm.getRawValue()).subscribe((data : any) =>{
+      console.log(data)
     })
   }
   hide = true;

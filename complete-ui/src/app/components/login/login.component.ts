@@ -11,14 +11,15 @@ import { DOCUMENT } from '@angular/common';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit{
+  service: any;
   constructor(private router : Router, private fb:FormBuilder, public auth : AuthService,
     private loginService : LoginService, private route : Router, @Inject(DOCUMENT) private doc: Document){}
   loginForm !: FormGroup
   flag = false
   ngOnInit(){
     this.loginForm = this.fb.group({
-      email:[''],
-      password:['']
+      email : ['', [Validators.required, Validators.email]],
+      password:['',[Validators.required,Validators.pattern("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$")]]
     })
     this.auth.user$.subscribe((profile) => {
       console.log(profile?.email?.split('@')[1]);
@@ -42,6 +43,12 @@ export class LoginComponent implements OnInit{
           break;
       }
     });
+  }
+  login(){
+    console.log(this.loginForm.getRawValue())
+    this.service.login(this.loginForm.getRawValue()).subscribe((data: any)=>{
+      console.log(data)
+    })
   }
 
     

@@ -8,7 +8,9 @@
   </button>
 </mat-toolbar><br>
 <h1>Hello! Please login to view your dashboard</h1>
-<form [formGroup]="loginForm">
+
+
+<form [formGroup]="loginForm" (ngSubmit)="login()">
   <div class="container">
     <div>
       <mat-form-field appearance="outline">
