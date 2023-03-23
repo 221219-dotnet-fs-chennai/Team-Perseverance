@@ -42,7 +42,7 @@
       Email is <strong>required</strong>
     </mat-error> -->
   </mat-form-field>
-  <button type="submit" class="submitbutton" mat-raised-button color="primary">Submit</button>
+  <button type="submit" class="submitbutton" mat-raised-button color="primary" [disabled]="!emailFormControl.valid">Submit</button>
 </form>
 
 

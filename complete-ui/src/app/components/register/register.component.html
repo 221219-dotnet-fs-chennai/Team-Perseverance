@@ -53,7 +53,7 @@
           <textarea matInput formControlName="address" placeholder="Ex. 100 Main St"></textarea>
         </mat-form-field>
       </div>  
-      <button (click)="navToLogin()" mat-raised-button color="primary">Sign Up</button><br><br>
+      <button (click)="navToLogin()" mat-raised-button color="primary" [disabled]="!registerForm.valid">Sign Up</button><br><br>
       <span>Signed Up Already? <a matTooltip="go to login page" (click)="navToLogin()" style="cursor: pointer; text-decoration: underline; color: blue;">Login</a> </span>
     </div>  
   </div>

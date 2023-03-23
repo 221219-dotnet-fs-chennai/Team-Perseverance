@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\AppointmentService_API\\AppointmentService_API.csproj": {}
+    "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\AppointmentService_API\\AppointmentService_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\AppointmentService_API\\AppointmentService_API.csproj": {
+    "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\AppointmentService_API\\AppointmentService_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\AppointmentService_API\\AppointmentService_API.csproj",
+        "projectUniqueName": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\AppointmentService_API\\AppointmentService_API.csproj",
         "projectName": "AppointmentService_API",
-        "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\AppointmentService_API\\AppointmentService_API.csproj",
-        "packagesPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\AppointmentService_API\\obj\\",
+        "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\AppointmentService_API\\AppointmentService_API.csproj",
+        "packagesPath": "C:\\Users\\Bhanu\\.nuget\\packages\\",
+        "outputPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\AppointmentService_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bhanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\DataLayer\\DataLayer.csproj"
+              "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\DataLayer\\DataLayer.csproj"
               },
-              "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj"
+              "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj": {
+                "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj"
               }
             }
           }
@@ -92,17 +92,17 @@
         }
       }
     },
-    "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\BusinessLogic\\obj\\",
+        "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Bhanu\\.nuget\\packages\\",
+        "outputPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bhanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,11 +116,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\DataLayer\\DataLayer.csproj"
+              "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\DataLayer\\DataLayer.csproj"
               },
-              "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj"
+              "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj": {
+                "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj"
               }
             }
           }
@@ -170,17 +170,17 @@
         }
       }
     },
-    "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\DataLayer\\DataLayer.csproj": {
+    "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\DataLayer\\obj\\",
+        "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Bhanu\\.nuget\\packages\\",
+        "outputPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bhanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -194,8 +194,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj"
+              "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj": {
+                "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj"
               }
             }
           }
@@ -245,17 +245,17 @@
         }
       }
     },
-    "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj": {
+    "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\obj\\",
+        "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Bhanu\\.nuget\\packages\\",
+        "outputPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bhanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

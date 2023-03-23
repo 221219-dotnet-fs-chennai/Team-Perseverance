@@ -12,7 +12,7 @@
 
     <div mat-dialog-actions class="btns">
       <button mat-button mat-dialog-close>Cancel</button>
-      <button mat-button mat-dialog-close cdkFocusInitial (click)="UpdateSchedule()" color="primary" (click)="openSnackBar()">Add schedule</button>
+      <button mat-button mat-dialog-close cdkFocusInitial (click)="UpdateSchedule()" color="primary" (click)="openSnackBar()" [disabled]="x == 0">Add schedule</button>
       <br><br><br>
     </div>
   </div>

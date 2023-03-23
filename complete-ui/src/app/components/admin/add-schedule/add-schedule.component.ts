@@ -44,11 +44,16 @@ export class AddScheduleComponent implements OnInit{
     this.dialogRef.close();
   }
 
+  x : number = 0
   toggleDayValue(day : number) : number {
-    if(!day)
+    if(!day) {
+      this.x++
       return 1
-    else
+    }
+    else{
+      this.x--
       return 0
+    }
   }
 
   updateDay(date : Date) {

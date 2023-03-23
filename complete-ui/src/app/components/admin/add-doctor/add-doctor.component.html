@@ -55,8 +55,8 @@
       
   </div>
   <div style="display: flex;flex-direction: column; gap: 1rem; justify-content: center; align-items: center; ">  
-    <button style="padding: 1rem 7rem;" mat-raised-button color="primary">Add</button>
-    <button style="padding: 1rem 4.6rem;" mat-stroked-button color="primary" (click)="openAddDialog('20ms', '20ms')">Add schedule</button>
+    <button style="padding: 1rem 7rem;" mat-raised-button color="primary" [disabled]="!doctorForm.valid">Add</button>
+    <button style="padding: 1rem 4.6rem;" mat-stroked-button color="primary" (click)="openAddDialog('20ms', '20ms')" [disabled]="!doctorForm.valid">Add schedule</button>
   </div>
 </form>
 

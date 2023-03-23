@@ -17,12 +17,12 @@ export class RegisterComponent implements OnInit{
       email : ['', [Validators.required, Validators.email]],
       password:['',[Validators.required,Validators.pattern("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$")]],
       name: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
-      phoneNo: ['', Validators.pattern("^([6-9]\d{9})$")],
-      address:['',Validators.pattern("^.{5,}$")],
-      city:['',Validators.pattern("^[A-Za-z]+$")],
-      state:['',Validators.pattern("^[A-Za-z]+$")],
-      age:['',Validators.pattern("^[0-9]+$")],
-      gender : ['', [Validators.pattern("^(male|female|other|Male|Female|Other)$")]]
+      phone: ['',[Validators.required, Validators.pattern("^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$")]],
+      address:['',[Validators.required,Validators.pattern("^.{5,}$")]],
+      //city:['',[Validators.required,Validators.pattern("^[A-Za-z]+$")]],
+      //state:['',[Validators.required,Validators.pattern("^[A-Za-z]+$")]],
+      age:['',[Validators.required,Validators.pattern("^[0-9]+$")]],
+      gender : ['', [Validators.required,Validators.pattern("^(male|female|other|Male|Female|Other)$")]]
     })
   }
   registration(){
