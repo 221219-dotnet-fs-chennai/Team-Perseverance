@@ -1,0 +1,22 @@
+.example-spacer {
+  flex: 11 auto;
+}
+.navbar
+{
+  justify-content: space-between;
+}
+/* .space{
+  padding-left: 45%;
+} */
+.mainpage
+{
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.doctorhead{
+  display: flex;
+  justify-content: space-between;
+}

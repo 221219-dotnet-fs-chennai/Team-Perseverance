@@ -1,0 +1,35 @@
+.updateform {
+  padding-top: 10px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    width: 35rem;
+    margin: auto;
+    margin-top: 50px;
+    color: rgb(8, 9, 19);
+    backdrop-filter: blur(1px) saturate(150%);
+    background-color: whitesmoke;
+    border-radius: 12px;
+    border: 1px solid rgba(26, 2, 2, 0.125);
+    padding: 10px;
+  }
+
+  mat-form-field{
+    gap: 1rem;
+  }
+
+
+
+  .example-full-width {
+    width: fit-content;
+    margin: auto;
+    color: rgb(8, 9, 19);
+    border-radius: 12px;
+    
+  }
+
+  button{
+    width: 220px;
+  }
+
+  

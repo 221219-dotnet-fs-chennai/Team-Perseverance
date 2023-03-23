@@ -1,0 +1,29 @@
+<div class="nav">
+    <p>
+        <mat-toolbar color="primary">
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <span>Appointments</span>
+            <span class="example-spacer"></span>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                <mat-icon>home</mat-icon>
+            </button>
+        </mat-toolbar>
+    </p>
+</div>
+
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+        <mat-label>Email</mat-label>
+        <input type="email" id="email" matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
+        <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+            Please enter a valid email address
+        </mat-error>
+        <mat-error *ngIf="emailFormControl.hasError('required')">
+            Email is <strong>required</strong>
+        </mat-error>
+    </mat-form-field>&nbsp;
+    <button mat-raised-button color="accent" onclick="Approve(); reset(); return false;">Accept</button>&nbsp;
+    <button mat-raised-button color="warn" onclick="Decline(); reset(); return false;">Decline</button>
+</form>

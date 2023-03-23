@@ -1,0 +1,24 @@
+<div class="nav">
+  <p>
+    <mat-toolbar>
+      <span>Nurse</span>
+      <span class="example-spacer"></span>
+
+      <button mat-button [matMenuTriggerFor]="menu">        <mat-icon>account_circle</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <div mat-dialog-content>
+          Name : Parker
+        </div>
+        <div> Email : parker@gmail.com
+        </div>
+      </mat-menu>
+      <button mat-icon-button class="example-icon" matTooltip="Logout">
+        <mat-icon>logout</mat-icon>
+      </button>
+    </mat-toolbar>
+  </p>
+</div>
+
+
+<router-outlet></router-outlet>

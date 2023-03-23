@@ -33,7 +33,8 @@ namespace DataLayer
                     PatientId = dr.PatientId,
                     DoctorId = dr.DoctorId,
                     NurseId = dr.NurseId,
-                    Status = dr.Status
+                    Status = dr.Status,
+                    Date = dr.Date
                 }
 
 
@@ -52,7 +53,8 @@ namespace DataLayer
                                   DoctorId = st.DoctorId,
                                   PatientId = st.PatientId,
                                   NurseId = st.NurseId,
-                                  Status = st.Status
+                                  Status = st.Status,
+                                  Date = st.Date
                               }
                               );
 
@@ -70,7 +72,8 @@ namespace DataLayer
                                   DoctorId = st.DoctorId,
                                   PatientId = st.PatientId,
                                   NurseId = st.NurseId,
-                                  Status = st.Status
+                                  Status = st.Status,
+                                  Date = st.Date
                               }
                               );
 

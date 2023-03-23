@@ -1,0 +1,21 @@
+<p>get-schedule works!</p>
+<br><br><br>
+
+<button (click)="ShowDates()">Book appointment</button>
+
+<div *ngIf="show">
+    <h3>Choose a date to book appointment</h3>
+    <div *ngFor="let d of dates; index as z">
+        <label>{{z}} : </label>
+        <input type="radio" name="datez" [value]="d | date : 'EEEE'" (change)="valChange($event)">{{d | date : 'fullDate'}}<br>
+    </div>
+    <button (click)="fetch()">Fetch</button>
+    <br><br><br>
+
+    <ul *ngFor="let schedule of schedules">
+        <li>{{schedule.doctorId}}</li>
+    </ul>
+    <!-- <ol>
+        {{schedules | json}}
+    </ol> -->
+</div>

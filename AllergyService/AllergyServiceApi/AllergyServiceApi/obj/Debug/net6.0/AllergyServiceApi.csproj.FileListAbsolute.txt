@@ -1,0 +1,372 @@
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\appsettings.json
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.exe
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.deps.json
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.runtimeconfig.json
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.pdb
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.AssemblyReference.cache
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.AssemblyInfoInputs.cache
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.AssemblyInfo.cs
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.CoreCompileInputs.cache
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.AllergyServiceApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.build.AllergyServiceApi.props
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AllergyServiceApi.props
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AllergyServiceApi.props
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\scopedcss\bundle\AllergyServiceApi.styles.css
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.CopyComplete
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\refint\AllergyServiceApi.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.pdb
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.genruntimeconfig.cache
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\ref\AllergyServiceApi.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\DataFluentApi.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\DataFluentApi.pdb
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\BusinessLogic.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Models.dll
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\BusinessLogic.pdb
+C:\Users\rizwa\OneDrive\Desktop\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Models.pdb
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\appsettings.Development.json
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\appsettings.json
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.exe
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.deps.json
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.runtimeconfig.json
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.pdb
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Azure.Core.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Azure.Identity.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Humanizer.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.CodeDom.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Text.Json.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\BusinessLogic.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\DataFluentApi.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Models.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\DataFluentApi.pdb
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Models.pdb
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.AssemblyReference.cache
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.AssemblyInfoInputs.cache
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.AssemblyInfo.cs
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.CoreCompileInputs.cache
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.AllergyServiceApi.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.build.AllergyServiceApi.props
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AllergyServiceApi.props
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AllergyServiceApi.props
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\scopedcss\bundle\AllergyServiceApi.styles.css
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.CopyComplete
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\refint\AllergyServiceApi.dll
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.pdb
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.genruntimeconfig.cache
+E:\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\ref\AllergyServiceApi.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\appsettings.json
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.exe
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.deps.json
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.runtimeconfig.json
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.pdb
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Azure.Core.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Azure.Identity.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Humanizer.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.CodeDom.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Text.Json.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\BusinessLogic.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\DataFluentApi.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Models.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\BusinessLogic.pdb
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\DataFluentApi.pdb
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Models.pdb
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.AssemblyReference.cache
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.AssemblyInfoInputs.cache
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.AssemblyInfo.cs
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.CoreCompileInputs.cache
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.AllergyServiceApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.build.AllergyServiceApi.props
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AllergyServiceApi.props
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AllergyServiceApi.props
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\scopedcss\bundle\AllergyServiceApi.styles.css
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.CopyComplete
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\refint\AllergyServiceApi.dll
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.pdb
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.genruntimeconfig.cache
+D:\Rev\Project 2\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\ref\AllergyServiceApi.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\appsettings.Development.json
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\appsettings.json
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.exe
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.deps.json
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.runtimeconfig.json
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\AllergyServiceApi.pdb
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Azure.Core.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Azure.Identity.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Humanizer.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.CodeDom.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Memory.Data.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Text.Json.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\BusinessLogic.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\DataFluentApi.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Models.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\BusinessLogic.pdb
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\DataFluentApi.pdb
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\bin\Debug\net6.0\Models.pdb
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.AssemblyReference.cache
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.AssemblyInfoInputs.cache
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.AssemblyInfo.cs
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.CoreCompileInputs.cache
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.MvcApplicationPartsAssemblyInfo.cs
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.MvcApplicationPartsAssemblyInfo.cache
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.AllergyServiceApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.build.AllergyServiceApi.props
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AllergyServiceApi.props
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AllergyServiceApi.props
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\scopedcss\bundle\AllergyServiceApi.styles.css
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.csproj.CopyComplete
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\refint\AllergyServiceApi.dll
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.pdb
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\AllergyServiceApi.genruntimeconfig.cache
+C:\CapStone\Team-Perseverance\AllergyService\AllergyServiceApi\AllergyServiceApi\obj\Debug\net6.0\ref\AllergyServiceApi.dll
