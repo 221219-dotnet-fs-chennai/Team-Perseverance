@@ -1,12 +1,12 @@
 // import { createInjectableType } from '@angular/compiler';
 
-import { Component, Input, OnInit, Output, EventEmitter, Inject } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter, Inject, LOCALE_ID } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { AvailabilityService } from '../patient/availability.service';
 import { Schedule } from 'src/app/schedule';
 import { Router } from '@angular/router';
 import { localStorageToken } from '../patient/show-doctors/localstorage.token';
-
+import { DatePipe, formatDate } from '@angular/common';
 @Component({
   selector: 'app-book-appointment',
   templateUrl: './book-appointment.component.html',
@@ -14,10 +14,13 @@ import { localStorageToken } from '../patient/show-doctors/localstorage.token';
 })
 export class BookAppointmentComponent implements OnInit {
 
-  constructor(public dialogRef: MatDialogRef<BookAppointmentComponent>, private schedule: AvailabilityService, 
-    private route: Router, @Inject(localStorageToken) private localStorage : any) { }
+  constructor(public dialogRef: MatDialogRef<BookAppointmentComponent>, private schedule: AvailabilityService,
+    private route: Router, @Inject(localStorageToken) private localStorage : any, private datePipe: DatePipe, @Inject(LOCALE_ID) private locale: string) { }
 
   // @Output() doctorIds = new EventEmitter();
+
+
+  boolDay : boolean = true;
 
   passDoctorIds() {
     // this.doctorIds.emit(this.schedules);
@@ -27,12 +30,14 @@ export class BookAppointmentComponent implements OnInit {
 
   selectedDay !: string;
 
-  
+
   i !: number
   ipdate: Date = new Date();
   dates !: Date[];
   show = false;
   schedules: Schedule[] = [];
+
+
 
   ngOnInit() {
     if (this.show == false)
@@ -57,13 +62,45 @@ export class BookAppointmentComponent implements OnInit {
 
   }
 
+  appointmentDate !: string;
+
+  selectedDate !: Date;
+
   valChange(event: any) {
     console.log(event.value);
     this.selectedDay = event.value;
+    this.selectedDate = event.value;
+    this.appointmentDate = formatDate(this.selectedDate,'dd-MMM-yyyy',this.locale);
+    console.log(this.appointmentDate);
+    switch(this.selectedDate.getDay()){
+      case 0:
+        this.selectedDay = "Sunday"
+        break
+      case 1:
+        this.selectedDay = "Monday"
+        break
+      case 2:
+        this.selectedDay = "Tuesday"
+        break
+      case 3:
+        this.selectedDay = "Wednesday"
+        break
+      case 4:
+        this.selectedDay = "Thursday"
+        break
+      case 5:
+        this.selectedDay = "Friday"
+        break
+      case 6:
+        this.selectedDay = "Saturday"
+        break
+    }
     console.log(this.selectedDay);
     this.localStorage.setItem('selectedDay', this.selectedDay);
+    this.localStorage.setItem('appointmentDate', this.appointmentDate);
+    this.boolDay = false;
   }
 
-  
+
   }
 

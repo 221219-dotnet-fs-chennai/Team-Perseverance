@@ -66,8 +66,8 @@ import { ShowDoctorsComponent } from './components/patient/show-doctors/show-doc
 import { BookingAlertComponent } from './components/patient/booking-alert/booking-alert.component';
 import { SnackbarBookingComponent } from './components/patient/show-doctors/snackbar-booking/snackbar-booking.component';
 import { BookAppointmentComponent } from './components/book-appointment/book-appointment.component';
+import { DatePipe } from '@angular/common';
 
- 
 
 @NgModule({
   declarations: [
@@ -141,6 +141,7 @@ import { BookAppointmentComponent } from './components/book-appointment/book-app
     MatPaginatorModule,
   ],
   providers: [
+    DatePipe,
     {
       provide: MatDialogRef,
       useValue: {}
