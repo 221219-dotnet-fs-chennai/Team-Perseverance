@@ -79,6 +79,7 @@ export class UpdateScheduleComponent implements OnInit {
   }
 
   
+
   displayedColumns: string[] = ['position', 'name', 'specialisation', 'select'];
   dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
   selection = new SelectionModel<PeriodicElement>(true, []);

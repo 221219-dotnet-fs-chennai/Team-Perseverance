@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj": {}
+    "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj": {
+    "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\Desktop\\GeFF\\Revature\\Client_Project\\API_Scaffolding\\AppointmentService_API\\Models\\obj\\",
+        "projectPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Bhanu\\.nuget\\packages\\",
+        "outputPath": "C:\\CapStone\\Team-Perseverance\\AppointmentService\\AppointmentService_API\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ALL USERS.DESKTOP-F90HQB3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bhanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

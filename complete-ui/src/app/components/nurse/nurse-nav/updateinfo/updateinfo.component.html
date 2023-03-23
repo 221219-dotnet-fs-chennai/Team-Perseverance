@@ -113,6 +113,6 @@
     </mat-form-field>
   </div>
   <div>
-    <button mat-raised-button color="primary" id="but">submit</button>
+    <button mat-raised-button color="primary" [disabled]="!updateform.valid" id="but">submit</button>
   </div>
 </form>

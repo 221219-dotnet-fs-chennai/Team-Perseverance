@@ -5,6 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>902e2c83-a4eb-4599-9783-24e06770e4f7</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>D:\Rev\Project 2\AllergyServiceApi</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
