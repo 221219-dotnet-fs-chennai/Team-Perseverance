@@ -22,7 +22,7 @@
 <div>
     <h1 style="text-align: center;">Add basic Health Record for patient</h1>
 </div>
-<form class="updateform" [formGroup]="updateform" (ngSubmit)="update()">
+<form class="updateform" [formGroup]="updateform" (ngSubmit)="update()" >
   <div>
     <mat-form-field appearance="outline" class="example-full-width">
       <mat-label>Blood Pressure</mat-label>
@@ -34,7 +34,7 @@
     </mat-form-field>
   </div>
   <div>
-    <mat-form-field appearance="outline" class="example-full-width">
+    <mat-form-field appearance="outline" class="example-full-width" >
       <mat-label>Heart Rate</mat-label>
       <input matInput formControlName="rate" placeholder="60 - 120">
       <mat-error *ngIf="rate &&rate.invalid && (rate.dirty || rate.touched)" style="white-space: nowrap;">
@@ -56,7 +56,7 @@
   <div>
     <mat-form-field appearance="outline">
       <mat-label>Allergies</mat-label>
-      <mat-select [formControl]="toppings" multiple>
+      <mat-select [formControl]="toppings"  multiple>
         <mat-select-trigger>
           {{toppings.value?.[0] || ''}}
           <span *ngIf="(toppings.value?.length || 0) > 1" class="example-additional-selection">
@@ -64,7 +64,17 @@
           </span>
         </mat-select-trigger>
         <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
+        <!-- <mat-error *ngIf="toppings && toppings.invalid && (toppings.dirty || toppings.touched)" style="white-space: nowrap;">
+          <span *ngIf="toppings.errors?.['required']">Allergies are a required field. </span>
+          <span *ngIf="temp.errors?.['pattern']">Blood Group should be in the format like 37.1.</span>
+        </mat-error> -->
       </mat-select>
+
+      <!-- <mat-error *ngIf="allergies && allergies.invalid && (allergies.dirty || allergies.touched)" style="white-space: nowrap;">
+        <span *ngIf="allergies.errors?.['required']">Allergies are a required field. </span>
+        <span *ngIf="temp.errors?.['pattern']">Blood Group should be in the format like 37.1.</span>
+      </mat-error> -->
+
     </mat-form-field>
   </div>
     <div>
@@ -73,7 +83,7 @@
       <input matInput formControlName="height" placeholder="in cm">
       <mat-error *ngIf="height && height.invalid && (height.dirty || height.touched)" style="white-space: nowrap;">
         <span *ngIf="height.errors?.['required']">Height is required. </span>
-        <span *ngIf="height.errors?.['pattern']">Height should be in cms.</span>
+        <span *ngIf="height.errors?.['pattern']">Enter a valid height.</span>
       </mat-error>
     </mat-form-field>
   </div>
@@ -100,7 +110,8 @@
   <div>
     <mat-form-field appearance="outline" class="example-full-width">
       <mat-label>Blood Group</mat-label>
-      <mat-select disableRipple>
+      <mat-select disableRipple formControlName="bloodgroup">
+
         <mat-option value="1">O+</mat-option>
         <mat-option value="2">O-</mat-option>
         <mat-option value="3">A+</mat-option>
@@ -110,9 +121,13 @@
         <mat-option value="3">AB+</mat-option>
         <mat-option value="3">AB-</mat-option>
       </mat-select>
+      <mat-error *ngIf="bloodgroup && bloodgroup.invalid && (bloodgroup.dirty || bloodgroup.touched)" style="white-space: nowrap;">
+        <span *ngIf="bloodgroup.errors?.['required']">Blood group is required field. </span>
+        <!-- <span *ngIf="temp.errors?.['pattern']">Blood Group should be in the format like 37.1.</span> -->
+      </mat-error>
     </mat-form-field>
   </div>
   <div>
-    <button mat-raised-button color="primary" id="but">submit</button>
+    <button mat-raised-button color="primary" id="but"  [disabled]="!updateform.valid" (click)="updateNurseIdByNurse()">submit</button>
   </div>
 </form>
