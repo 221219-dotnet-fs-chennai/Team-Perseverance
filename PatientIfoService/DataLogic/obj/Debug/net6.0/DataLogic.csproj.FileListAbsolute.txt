@@ -1,17 +1,17 @@
-C:\Users\SuPra\Desktop\DataLogic\bin\Debug\net6.0\DataLogic.deps.json
-C:\Users\SuPra\Desktop\DataLogic\bin\Debug\net6.0\DataLogic.dll
-C:\Users\SuPra\Desktop\DataLogic\bin\Debug\net6.0\DataLogic.pdb
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\DataLogic.csproj.AssemblyReference.cache
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\DataLogic.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\DataLogic.AssemblyInfoInputs.cache
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\DataLogic.AssemblyInfo.cs
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\DataLogic.csproj.CoreCompileInputs.cache
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\DataLogic.dll
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\refint\DataLogic.dll
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\DataLogic.pdb
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\ref\DataLogic.dll
-C:\Users\SuPra\Desktop\DataLogic\bin\Debug\net6.0\DataLogic.runtimeconfig.json
-C:\Users\SuPra\Desktop\DataLogic\bin\Debug\net6.0\Models.dll
-C:\Users\SuPra\Desktop\DataLogic\bin\Debug\net6.0\Models.pdb
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\DataLogic.csproj.CopyComplete
-C:\Users\SuPra\Desktop\DataLogic\obj\Debug\net6.0\DataLogic.genruntimeconfig.cache
+C:\Users\SuPra\Desktop\Project -02\DataLogic\bin\Debug\net6.0\DataLogic.deps.json
+C:\Users\SuPra\Desktop\Project -02\DataLogic\bin\Debug\net6.0\DataLogic.runtimeconfig.json
+C:\Users\SuPra\Desktop\Project -02\DataLogic\bin\Debug\net6.0\DataLogic.dll
+C:\Users\SuPra\Desktop\Project -02\DataLogic\bin\Debug\net6.0\DataLogic.pdb
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\DataLogic.csproj.AssemblyReference.cache
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\DataLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\DataLogic.AssemblyInfoInputs.cache
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\DataLogic.AssemblyInfo.cs
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\DataLogic.csproj.CoreCompileInputs.cache
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\DataLogic.dll
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\refint\DataLogic.dll
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\DataLogic.pdb
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\DataLogic.genruntimeconfig.cache
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\ref\DataLogic.dll
+C:\Users\SuPra\Desktop\Project -02\DataLogic\bin\Debug\net6.0\Models.dll
+C:\Users\SuPra\Desktop\Project -02\DataLogic\bin\Debug\net6.0\Models.pdb
+C:\Users\SuPra\Desktop\Project -02\DataLogic\obj\Debug\net6.0\DataLogic.csproj.CopyComplete

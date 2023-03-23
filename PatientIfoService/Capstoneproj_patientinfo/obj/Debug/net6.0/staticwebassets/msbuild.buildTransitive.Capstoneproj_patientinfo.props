@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Capstoneproj_patientinfo.props" />
-</Project>

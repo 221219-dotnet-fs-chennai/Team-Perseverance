@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kVuCx1ysfiTNH1FltqmF6BQ+xQh1wvxuQlvvkzdPWJamkIFiXAnPa87e24VWVdgOiO/7U/IUoymYBniTvAA4qQ==",
+  "dgSpecHash": "un4luWSap2UN79xNM84v8NPh3aFZ/zdXESWuZBD9otPp1LG24jaRts/Fis7hekSXr4VR07jEMd8wNRMQRBw63g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SuPra\\Desktop\\DataLogic\\DataLogic.csproj",
+  "projectFilePath": "C:\\Users\\SuPra\\Desktop\\Project -02\\DataLogic\\DataLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SuPra\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SuPra\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
