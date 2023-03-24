@@ -13,5 +13,5 @@ public partial class PatientAllergy
 
     public string? Allergy { get; set; }
 
-    public virtual PatientBasicRecord? Health { get; set; }
+    public virtual PatientBasicRecord? Appointment { get; set; }
 }
