@@ -1,17 +1,15 @@
 ﻿using DataLogic.Entities;
-using Microsoft.Identity.Client;
 using Models;
 
 namespace DataLogic
 {
     public class Repo : IRepo
     {
-            PatientInfoServiceDbContext _context = new PatientInfoServiceDbContext();    
-            public Repo(PatientInfoServiceDbContext context)
-            {
-                _context = context;
-            }
-
+       readonly PatientInfoServiceDbContext _context = new();
+        public Repo(PatientInfoServiceDbContext context)
+        {
+            _context = context;
+        }
         public void AddnewPatientInfo(Patientinfo patientinfo)
         {
             _context.Patientinfos.Add(patientinfo);
@@ -20,38 +18,14 @@ namespace DataLogic
 
         public IEnumerable<PatientInfo> GetallPatientinfos()
         {
-            var patient =  _context.Patientinfos;
+            var patient = _context.Patientinfos;
             var patient_info = (
                 from pr in patient
                 select new PatientInfo()
                 {
-                    Adress= pr.Adress,
-                    Age= pr.Age,
-                    Country= pr.Country,
-                    Email= pr.Email,
-                    State= pr.State,
-                    Fullname= pr.Fullname,
-                    Gender= pr.Gender,
-                    Pasword= pr.Pasword,
-                    PatId= pr.PatId,
-                    Phone= pr.Phone,
-                }
-                
-                );
-            return patient_info.ToList();
-
-        }
-
-        public IEnumerable<PatientInfo> GetPatientinfosbyemail(string Email)
-        {
-            var patient = _context.Patientinfos;
-            var patient_info = (
-                from pr in patient where pr.Email == Email
-                select new PatientInfo()
-                {
-                    Adress = pr.Adress,
+                    AdressLine = pr.AdressLine  ,
                     Age = pr.Age,
-                    Country = pr.Country,
+                   City = pr.City,
                     Email = pr.Email,
                     State = pr.State,
                     Fullname = pr.Fullname,
@@ -63,13 +37,35 @@ namespace DataLogic
 
                 );
             return patient_info.ToList();
+        }
 
+        public IEnumerable<PatientInfo> GetPatientinfosbyemail(string Email)
+        {
+            var patient = _context.Patientinfos;
+            var patient_info = (
+                from pr in patient
+                where pr.Email == Email
+                select new PatientInfo()
+                {
+                    AdressLine= pr.AdressLine ,
+                    Age = pr.Age,
+                    City = pr.City,
+                    Email = pr.Email,
+                    State = pr.State,
+                    Fullname = pr.Fullname,
+                    Gender = pr.Gender,
+                    Pasword = pr.Pasword,
+                    PatId = pr.PatId,
+                    Phone = pr.Phone,
+                }
 
+                );
+            return patient_info.ToList();
         }
 
         public PatientInfo updatePatientinfos(Guid Pat_id, Patientinfo patientinfo)
         {
-            PatientInfo info = new PatientInfo() ;
+            PatientInfo info = new();
             var patient = _context.Patientinfos.Where(pat => pat.PatId == Pat_id).FirstOrDefault();
             if (patient != null)
             {
@@ -85,9 +81,9 @@ namespace DataLogic
                 {
                     patient.Gender = patientinfo.Gender;
                 }
-                if ((patientinfo.Adress != null && patientinfo.Adress != "string") && patient.Adress != patientinfo.Adress)
+                if ((patientinfo.AdressLine != null && patientinfo.AdressLine != "string") && patient.AdressLine != patientinfo.AdressLine)
                 {
-                    patient.Adress = patientinfo.Adress;
+                    patient.AdressLine = patientinfo.AdressLine;
                 }
                 if ((patientinfo.Phone != null && patientinfo.Phone != 0) && patient.Phone != patientinfo.Phone)
                 {
@@ -97,16 +93,14 @@ namespace DataLogic
                 {
                     patient.State = patientinfo.State;
                 }
-                if ((patientinfo.Country != null && patientinfo.Country != "string") && patient.Country != patientinfo.Country)
+                if ((patientinfo.City != null && patientinfo.City != "string") && patient.City != patientinfo.City)
                 {
-                    patient.Country = patientinfo.Country;
+                    patient.City = patientinfo.City;
                 }
             }
-             _context.Patientinfos.Update(patient);
+            _context.Patientinfos.Update(patient);
             _context.SaveChanges();
             return info;
         }
-
-       
     }
 }

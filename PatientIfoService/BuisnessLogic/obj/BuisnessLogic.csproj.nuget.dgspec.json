@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SuPra\\Desktop\\BuisnessLogic\\BuisnessLogic.csproj": {}
+    "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\BuisnessLogic\\BuisnessLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SuPra\\Desktop\\BuisnessLogic\\BuisnessLogic.csproj": {
+    "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\BuisnessLogic\\BuisnessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\BuisnessLogic\\BuisnessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\BuisnessLogic\\BuisnessLogic.csproj",
         "projectName": "BuisnessLogic",
-        "projectPath": "C:\\Users\\SuPra\\Desktop\\BuisnessLogic\\BuisnessLogic.csproj",
+        "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\BuisnessLogic\\BuisnessLogic.csproj",
         "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SuPra\\Desktop\\BuisnessLogic\\obj\\",
+        "outputPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\BuisnessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SuPra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,70 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\SuPra\\Desktop\\DataLogic\\DataLogic.csproj": {
-                "projectPath": "C:\\Users\\SuPra\\Desktop\\DataLogic\\DataLogic.csproj"
+              "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\DataLogic\\DataLogic.csproj": {
+                "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\DataLogic\\DataLogic.csproj"
               },
-              "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\SuPra\\Desktop\\DataLogic\\DataLogic.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\DataLogic\\DataLogic.csproj",
-        "projectName": "DataLogic",
-        "projectPath": "C:\\Users\\SuPra\\Desktop\\DataLogic\\DataLogic.csproj",
-        "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SuPra\\Desktop\\DataLogic\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\SuPra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj"
+              "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj"
               }
             }
           }
@@ -106,6 +47,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -147,14 +92,99 @@
         }
       }
     },
-    "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj": {
+    "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\DataLogic\\DataLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj",
-        "projectName": "Models",
-        "projectPath": "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\DataLogic\\DataLogic.csproj",
+        "projectName": "DataLogic",
+        "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\DataLogic\\DataLogic.csproj",
         "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SuPra\\Desktop\\Models\\obj\\",
+        "outputPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\DataLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SuPra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SuPra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -182,6 +212,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
