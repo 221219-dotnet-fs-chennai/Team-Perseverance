@@ -3803,11 +3803,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj",
       "projectName": "Models",
       "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\Models.csproj",
+      "projectName": "Models",
+      "projectPath": "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\obj\\",
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SuPra\\AppData\\Roaming\\NuGet\\NuGet.Config",

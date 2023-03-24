@@ -2,21 +2,28 @@ C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\BuisnessLogic.
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\BuisnessLogic.runtimeconfig.json
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\BuisnessLogic.dll
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\BuisnessLogic.pdb
+<<<<<<< HEAD
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\DataLogic.dll
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\Models.dll
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\DataLogic.pdb
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\Models.pdb
+=======
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.csproj.AssemblyReference.cache
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.AssemblyInfoInputs.cache
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.AssemblyInfo.cs
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.csproj.CopyComplete
+=======
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.dll
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\refint\BuisnessLogic.dll
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.pdb
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.genruntimeconfig.cache
 C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\ref\BuisnessLogic.dll
+<<<<<<< HEAD
 C:\Users\SuPra\Desktop\khalifa\PatientInfoService\BuisnessLogic\bin\Debug\net6.0\BuisnessLogic.deps.json
 C:\Users\SuPra\Desktop\khalifa\PatientInfoService\BuisnessLogic\bin\Debug\net6.0\BuisnessLogic.runtimeconfig.json
 C:\Users\SuPra\Desktop\khalifa\PatientInfoService\BuisnessLogic\bin\Debug\net6.0\BuisnessLogic.dll
@@ -36,3 +43,10 @@ C:\Users\SuPra\Desktop\khalifa\PatientInfoService\BuisnessLogic\obj\Debug\net6.0
 C:\Users\SuPra\Desktop\khalifa\PatientInfoService\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.pdb
 C:\Users\SuPra\Desktop\khalifa\PatientInfoService\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.genruntimeconfig.cache
 C:\Users\SuPra\Desktop\khalifa\PatientInfoService\BuisnessLogic\obj\Debug\net6.0\ref\BuisnessLogic.dll
+=======
+C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\DataLogic.dll
+C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\Models.dll
+C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\DataLogic.pdb
+C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\bin\Debug\net6.0\Models.pdb
+C:\Users\SuPra\Desktop\Project -02\BuisnessLogic\obj\Debug\net6.0\BuisnessLogic.csproj.CopyComplete
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06

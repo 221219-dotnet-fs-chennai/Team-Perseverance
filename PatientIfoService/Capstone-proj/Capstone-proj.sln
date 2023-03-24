@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\Models\Models.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLogic", "..\DataLogic\DataLogic.csproj", "{89DE7118-09F8-4FFE-9845-1F0852BCD262}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1376F0DE-814C-48B2-BBA3-215E66EBE664}"
+EndProject
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +38,13 @@ Global
 		{89DE7118-09F8-4FFE-9845-1F0852BCD262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89DE7118-09F8-4FFE-9845-1F0852BCD262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89DE7118-09F8-4FFE-9845-1F0852BCD262}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{1376F0DE-814C-48B2-BBA3-215E66EBE664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1376F0DE-814C-48B2-BBA3-215E66EBE664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1376F0DE-814C-48B2-BBA3-215E66EBE664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1376F0DE-814C-48B2-BBA3-215E66EBE664}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,10 @@ services:
     image: capstoneproj:dev
     container_name: Capstone-proj_1
     build:
+<<<<<<< HEAD
+=======
+      target: base
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "Capstone-proj"

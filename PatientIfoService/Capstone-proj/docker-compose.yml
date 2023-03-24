@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  capstone-proj:
+    image: ${DOCKER_REGISTRY-}capstoneproj
+    build:
+      context: .
+      dockerfile: Dockerfile

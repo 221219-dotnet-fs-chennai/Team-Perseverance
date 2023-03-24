@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "aPp7rw0a4OIqlHgB3nFfo6i2XzRYEiis6Z/rvDm3VJPmdH/6duxJ06uBV3VVs5IQQ+Uc7+dA1qRhREayeSK85w==",
   "success": true,
   "projectFilePath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\DataLogic\\DataLogic.csproj",
+=======
+  "dgSpecHash": "un4luWSap2UN79xNM84v8NPh3aFZ/zdXESWuZBD9otPp1LG24jaRts/Fis7hekSXr4VR07jEMd8wNRMQRBw63g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SuPra\\Desktop\\Project -02\\DataLogic\\DataLogic.csproj",
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
   "expectedPackageFiles": [
     "C:\\Users\\SuPra\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SuPra\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

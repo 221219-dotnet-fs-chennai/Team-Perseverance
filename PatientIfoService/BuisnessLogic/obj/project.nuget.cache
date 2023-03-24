@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "4mBhXSNtAiffJGNgs1dTU5tsil76MWrMronhN7+hFueXoHDqg+Qm2WJbSolN7bYbGJyL+4VQNwRrL5hGzGZZww==",
   "success": true,
   "projectFilePath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\BuisnessLogic\\BuisnessLogic.csproj",
+=======
+  "dgSpecHash": "5FyYa/edM0PN5Cpe5mkyhX3TsDWFMO69fZOiVRBEg1MCzYHcK+ZUXO9dUVM3zVmKZSs2HZ87uuwqBG9W3pfebg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SuPra\\Desktop\\Project -02\\BuisnessLogic\\BuisnessLogic.csproj",
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
   "expectedPackageFiles": [
     "C:\\Users\\SuPra\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SuPra\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

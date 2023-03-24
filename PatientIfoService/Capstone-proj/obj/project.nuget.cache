@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "G+1ng5qcYL3jg9K20CcvVpXu9lFrzG4J7WHwbsiEKJbdZ4FIpLu1xb/nD3lnZ2Psg0+gH+RbgrazJKrc5LuvpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Capstone-proj\\Capstone-proj.csproj",
+=======
+  "dgSpecHash": "OzOcKhMu7TvgX8uMdOncvAMZpn+8ASNTa0iND/puf7e+1McFMQsZlwniqtfLhLp51y9Vcg/JaYrpAgDQDxShpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SuPra\\Desktop\\Project -02\\Capstone-proj\\Capstone-proj.csproj",
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
   "expectedPackageFiles": [
     "C:\\Users\\SuPra\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SuPra\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

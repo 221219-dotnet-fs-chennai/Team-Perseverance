@@ -3846,11 +3846,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\BuisnessLogic\\BuisnessLogic.csproj",
       "projectName": "BuisnessLogic",
       "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\BuisnessLogic\\BuisnessLogic.csproj",
       "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\BuisnessLogic\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\Project -02\\BuisnessLogic\\BuisnessLogic.csproj",
+      "projectName": "BuisnessLogic",
+      "projectPath": "C:\\Users\\SuPra\\Desktop\\Project -02\\BuisnessLogic\\BuisnessLogic.csproj",
+      "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SuPra\\Desktop\\Project -02\\BuisnessLogic\\obj\\",
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SuPra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3867,11 +3875,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\DataLogic\\DataLogic.csproj": {
               "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\DataLogic\\DataLogic.csproj"
             },
             "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj": {
               "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj"
+=======
+            "C:\\Users\\SuPra\\Desktop\\Project -02\\DataLogic\\DataLogic.csproj": {
+              "projectPath": "C:\\Users\\SuPra\\Desktop\\Project -02\\DataLogic\\DataLogic.csproj"
+            },
+            "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\Models.csproj"
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
             }
           }
         }
