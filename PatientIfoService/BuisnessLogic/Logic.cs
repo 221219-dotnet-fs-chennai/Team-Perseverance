@@ -4,12 +4,12 @@ using Models;
 
 namespace BuisnessLogic
 {
-    public class Logic : ILogic
+    public class Logic:ILogic
     {
         Mapper _mapper = new Mapper();
         IRepo _repo;
-        public Logic( IRepo repo)
-        { 
+        public Logic(IRepo repo)
+        {
             _repo = repo;
         }
 
@@ -20,7 +20,7 @@ namespace BuisnessLogic
 
         public IEnumerable<PatientInfo> GetallPatientinfos()
         {
-           return  _repo.GetallPatientinfos();
+            return _repo.GetallPatientinfos();
         }
 
         public IEnumerable<PatientInfo> GetPatientDetailsByemail(string Email)

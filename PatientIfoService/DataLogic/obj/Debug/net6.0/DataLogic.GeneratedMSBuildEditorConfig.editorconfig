@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DataLogic
-build_property.ProjectDir = C:\Users\SuPra\Desktop\DataLogic\
+<<<<<<< HEAD
+build_property.ProjectDir = c:\Users\SuPra\Desktop\khalifa\PatientInfoService\DataLogic\
+=======
+build_property.ProjectDir = C:\Users\SuPra\Desktop\Project -02\DataLogic\
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06

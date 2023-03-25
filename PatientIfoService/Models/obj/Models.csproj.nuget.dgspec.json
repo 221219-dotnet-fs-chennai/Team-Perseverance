@@ -1,17 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj": {}
+<<<<<<< HEAD
+    "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj": {
+    "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\SuPra\\Desktop\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SuPra\\Desktop\\Models\\obj\\",
+        "outputPath": "C:\\Users\\SuPra\\Desktop\\khalifa\\PatientInfoService\\Models\\obj\\",
+=======
+    "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\Models.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\SuPra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SuPra\\Desktop\\Project -02\\Models\\obj\\",
+>>>>>>> 73314a96ed25fa71d958f9b5c7ded8070d889a06
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SuPra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +53,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
