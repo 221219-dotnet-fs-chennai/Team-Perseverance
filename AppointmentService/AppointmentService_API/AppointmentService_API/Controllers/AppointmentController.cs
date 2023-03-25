@@ -87,7 +87,14 @@ namespace AppointmentService_API.Controllers
             try
             {
                 var response = logic.GetAppointmentsByDoctorId(doctor_id);
-                return Ok(response);
+                if (response != null)
+                {
+                    return Ok(response);
+                }
+                else
+                {
+                    return BadRequest(response);
+                }
 
             }
             catch (SqlException ex)
@@ -107,7 +114,14 @@ namespace AppointmentService_API.Controllers
             try
             {
                 var response = logic.GetAppointmentsByStatus(status);
-                return Ok(response);
+                if (response != null)
+                {
+                    return Ok(response);
+                }
+                else
+                {
+                    return BadRequest(response);
+                }
 
             }
             catch (SqlException ex)
@@ -125,7 +139,14 @@ namespace AppointmentService_API.Controllers
             try
             {
                 var response = logic.GetAppointmentsByStatusOne();
-                return Ok(response);
+                if (response != null)
+                {
+                    return Ok(response);
+                }
+                else
+                {
+                    return BadRequest(response);
+                }
 
             }
             catch (SqlException ex)
