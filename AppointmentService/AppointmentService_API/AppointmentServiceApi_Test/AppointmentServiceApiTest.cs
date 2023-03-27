@@ -217,49 +217,7 @@ namespace AppointmentServiceApi_Test
         }
 
 
-        //[Fact]
-        //public void AddAppointment_AppointmentService_BadRequestResponse_SqlException()
-        //{
-        //    // Arrange
-
-        //    Exception exception = new Exception();
-        //    var request = fixture.Create<AppointmentModel>();
-
-        //    //controller.ModelState.TryAddModelException("Something wrong with the request",exception);
-
-
-
-
-        //    var response = fixture.Create<AppointmentModel>();
-        //    mockLogic.Setup(x => x.AddAppointmentByPatient(request)).Throws(new new SqlException("Error message"));
-
-
-
-
-
-
-
-        //    // Act
-
-        //    var result = controller.AddAppointment(request);
-
-
-
-        //    // Assert
-
-        //    result.Should().NotBeNull();
-
-
-
-        //    result.Should().BeAssignableTo<BadRequestObjectResult>();
-
-
-
-
-        //    //mockLogic.Verify(x => x.AddAppointmentByPatient(response), Times.Once());
-
-
-        //}
+        
 
 
         [Fact]
