@@ -26,27 +26,27 @@ CREATE table [PatientAllergy](
 CREATE TABLE [PatientHealthRecord](
     [Id] UNIQUEIDENTIFIER,
     [DateTime] smalldatetime,
-    [Patient_Id] NVARCHAR(100) PRIMARY KEY,
+    [Patient_Id] NVARCHAR(max),
     [Doctor_Id] NVARCHAR(max),
-    [Appointment_Id] NVARCHAR(max),
+    [Appointment_Id] NVARCHAR(100) PRIMARY KEY,
     [Conclusion] NVARCHAR(max) 
 );
 
 Create TABLE [PatientMedication](
     [Id] UNIQUEIDENTIFIER PRIMARY Key,
-    [Health_Id] NVARCHAR(100),
-    [Appointment_Id] NVARCHAR(max),
+    [Health_Id] NVARCHAR(max),
+    [Appointment_Id] NVARCHAR(100),
     [Drug] NVARCHAR(max),
-    CONSTRAINT [Fk_patientmedication] FOREIGN KEY(Health_Id) REFERENCES [PatientHealthRecord](Patient_Id) ON DELETE CASCADE ON UPDATE CASCADE
+    CONSTRAINT [Fk_patientmedication] FOREIGN KEY(Appointment_Id) REFERENCES [PatientHealthRecord](Appointment_Id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 Create TABLE [PatientTest](
     [Id] UNIQUEIDENTIFIER PRIMARY Key,
-    [Health_Id] NVARCHAR(100),
-    [Appointment_Id] NVARCHAR(max),
+    [Health_Id] NVARCHAR(max),
+    [Appointment_Id] NVARCHAR(100),
     [Test] NVARCHAR(max),
     [Result] NVARCHAR(max),
-    CONSTRAINT [Fk_patientTest] FOREIGN KEY(Health_Id) REFERENCES [PatientHealthRecord](Patient_Id) ON DELETE CASCADE ON UPDATE CASCADE
+    CONSTRAINT [Fk_patientTest] FOREIGN KEY(Appointment_Id) REFERENCES [PatientHealthRecord](Appointment_Id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 SELECT * FROM PatientBasicRecord
@@ -54,3 +54,4 @@ SELECT * FROM PatientAllergy
 SELECT * FROM PatientHealthRecord
 SELECT * FROM PatientMedication
 SELECT * FROM PatientTest
+
