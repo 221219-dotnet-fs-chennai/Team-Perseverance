@@ -16,5 +16,6 @@ namespace Models
         public string Health_Id { get; set; }
         public string Appointment_Id { get; set; }
         public string Drugs { get; set; }
+        public string Quantity { get; set; }
     }
 }

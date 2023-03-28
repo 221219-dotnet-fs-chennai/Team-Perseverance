@@ -70,7 +70,7 @@ namespace Service.Controllers
             {
                 r.Id = Guid.NewGuid();
                 var add = _logic.AddBasicR(r);
-                return CreatedAtAction("Add", add);
+                return Ok(add);
             }
             catch (SqlException ex)
             {

@@ -80,7 +80,8 @@ namespace BusinessLogic
                 Id = mr.Id,
                 Health_Id = mr.HealthId,
                 Appointment_Id = mr.AppointmentId,
-                Drugs = mr.Drug
+                Drugs = mr.Drug,
+                Quantity = mr.Quantity
             };
         }
 

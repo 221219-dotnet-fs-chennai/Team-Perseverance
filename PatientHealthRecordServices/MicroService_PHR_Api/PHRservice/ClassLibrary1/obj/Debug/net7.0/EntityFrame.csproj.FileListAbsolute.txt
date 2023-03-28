@@ -26,3 +26,17 @@ E:\PHS-Pipeline\TP-PHS\ClassLibrary1\obj\Debug\net7.0\refint\EntityFrame.dll
 E:\PHS-Pipeline\TP-PHS\ClassLibrary1\obj\Debug\net7.0\EntityFrame.pdb
 E:\PHS-Pipeline\TP-PHS\ClassLibrary1\obj\Debug\net7.0\EntityFrame.genruntimeconfig.cache
 E:\PHS-Pipeline\TP-PHS\ClassLibrary1\obj\Debug\net7.0\ref\EntityFrame.dll
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\bin\Debug\net7.0\EntityFrame.deps.json
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\bin\Debug\net7.0\EntityFrame.runtimeconfig.json
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\bin\Debug\net7.0\EntityFrame.dll
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\bin\Debug\net7.0\EntityFrame.pdb
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\EntityFrame.csproj.AssemblyReference.cache
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\EntityFrame.GeneratedMSBuildEditorConfig.editorconfig
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\EntityFrame.AssemblyInfoInputs.cache
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\EntityFrame.AssemblyInfo.cs
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\EntityFrame.csproj.CoreCompileInputs.cache
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\EntityFrame.dll
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\refint\EntityFrame.dll
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\EntityFrame.pdb
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\EntityFrame.genruntimeconfig.cache
+E:\HMS\Team-Perseverance\PatientHealthRecordServices\MicroService_PHR_Api\PHRservice\ClassLibrary1\obj\Debug\net7.0\ref\EntityFrame.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QW68Zc2CmYW7ywA0DHnOfO0SYFqBSUKqM/Dg/mOPLryrEurkeE+SEJvGhN1z1VuZMDaAjeKZq7+FztwzQDsJnw==",
+  "dgSpecHash": "UHs6IF1x15IyA2X6A+zzj/5PuFcP2B79adi2EbNvlosylwWYcPNdGVR4o9sawIQcUtkxMosQGciClVquEMV1zg==",
   "success": true,
-  "projectFilePath": "E:\\capstone\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\ClassLibrary1\\EntityFrame.csproj",
+  "projectFilePath": "E:\\HMS\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\ClassLibrary1\\EntityFrame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\godavarthi yasaswini\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\godavarthi yasaswini\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

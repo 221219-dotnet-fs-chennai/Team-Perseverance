@@ -3218,11 +3218,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\capstone\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\BusinessLogic\\BusinessLogic.csproj",
+      "projectUniqueName": "E:\\HMS\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\BusinessLogic\\BusinessLogic.csproj",
       "projectName": "BusinessLogic",
-      "projectPath": "E:\\capstone\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\BusinessLogic\\BusinessLogic.csproj",
+      "projectPath": "E:\\HMS\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\BusinessLogic\\BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\godavarthi yasaswini\\.nuget\\packages\\",
-      "outputPath": "E:\\capstone\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\BusinessLogic\\obj\\",
+      "outputPath": "E:\\HMS\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\godavarthi yasaswini\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3239,11 +3239,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\capstone\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\ClassLibrary1\\EntityFrame.csproj": {
-              "projectPath": "E:\\capstone\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\ClassLibrary1\\EntityFrame.csproj"
+            "E:\\HMS\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\ClassLibrary1\\EntityFrame.csproj": {
+              "projectPath": "E:\\HMS\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\ClassLibrary1\\EntityFrame.csproj"
             },
-            "E:\\capstone\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\Models\\Models.csproj": {
-              "projectPath": "E:\\capstone\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\Models\\Models.csproj"
+            "E:\\HMS\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\Models\\Models.csproj": {
+              "projectPath": "E:\\HMS\\Team-Perseverance\\PatientHealthRecordServices\\MicroService_PHR_Api\\PHRservice\\Models\\Models.csproj"
             }
           }
         }

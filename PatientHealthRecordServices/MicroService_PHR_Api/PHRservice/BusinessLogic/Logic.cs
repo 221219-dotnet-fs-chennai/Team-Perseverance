@@ -136,6 +136,7 @@ namespace BusinessLogic
             {
                 s.Drug = record.Drugs;
                 s.HealthId = record.Health_Id;
+                s.Quantity = record.Quantity;
 
                 s = _repo.UpdateMedication(s);
             }
