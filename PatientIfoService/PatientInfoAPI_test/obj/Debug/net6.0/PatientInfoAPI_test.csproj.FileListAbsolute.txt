@@ -176,3 +176,9 @@ C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\obj\Debug\net6.0\refint\P
 C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\obj\Debug\net6.0\PatientInfoAPI_test.pdb
 C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\obj\Debug\net6.0\PatientInfoAPI_test.genruntimeconfig.cache
 C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\obj\Debug\net6.0\ref\PatientInfoAPI_test.dll
+C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\bin\Debug\net6.0\PatientInfoAPI_test.dll.config
+C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\bin\Debug\net6.0\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\bin\Debug\net6.0\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\bin\Debug\net6.0\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\bin\Debug\net6.0\Microsoft.Data.Tools.Utilities.dll
+C:\Users\SuPra\Desktop\Project -02\PatientInfoAPI_test\bin\Debug\net6.0\Microsoft.SqlServer.TransactSql.ScriptDom.dll
